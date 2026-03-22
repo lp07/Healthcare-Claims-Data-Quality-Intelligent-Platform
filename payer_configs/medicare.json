@@ -1,0 +1,16 @@
+{
+  "payer_name": "Medicare",
+  "payer_id": "MEDICARE",
+  "timely_filing_days": 365,
+  "subscriber_id_pattern": null,
+  "required_fields": [
+    {
+      "field": "taxonomy_code",
+      "error_code": "MCR_001",
+      "message": "Medicare requires provider taxonomy code (NUCC) on all claims.",
+      "severity": "WARNING",
+      "edi_segment": "PRV"
+    }
+  ],
+  "notes": "Medicare timely filing is 365 days. MBI format varies."
+}

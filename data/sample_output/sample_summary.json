@@ -1,0 +1,53 @@
+{
+  "run_timestamp": "2026-03-22 00:30:03",
+  "total_claims": 1200,
+  "valid_claims": 668,
+  "flagged_claims": 55,
+  "rejected_claims": 477,
+  "pass_rate_pct": 55.67,
+  "total_billed_amount": 2707848.63,
+  "total_revenue_at_risk": 1164308.52,
+  "revenue_at_risk_pct": 43.0,
+  "top_error_codes": [
+    [
+      "PAYER_TF_001",
+      259
+    ],
+    [
+      "NPI_002",
+      66
+    ],
+    [
+      "DX_004",
+      48
+    ],
+    [
+      "NPI_003",
+      48
+    ],
+    [
+      "NPI_006",
+      42
+    ],
+    [
+      "DX_002",
+      41
+    ],
+    [
+      "PROC_002",
+      27
+    ],
+    [
+      "AMT_002",
+      26
+    ],
+    [
+      "PAYER_SUB_001",
+      21
+    ],
+    [
+      "DATE_003",
+      19
+    ]
+  ]
+}

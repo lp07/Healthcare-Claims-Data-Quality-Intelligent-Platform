@@ -1,0 +1,8 @@
+{
+  "payer_name": "Aetna",
+  "payer_id": "AETNA",
+  "timely_filing_days": 180,
+  "subscriber_id_pattern": "^[0-9]{9}$",
+  "required_fields": [],
+  "notes": "Aetna timely filing is 180 days. Subscriber ID is 9 numeric digits."
+}

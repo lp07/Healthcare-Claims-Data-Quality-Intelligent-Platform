@@ -1,0 +1,8 @@
+{
+  "payer_name": "Default",
+  "payer_id": "DEFAULT",
+  "timely_filing_days": 365,
+  "subscriber_id_pattern": null,
+  "required_fields": [],
+  "notes": "Fallback config for payers without specific rules. Only base EDI 837 rules apply."
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+.pytest_cache/
+data/sample_output/claims_validation_report_*.csv
+data/sample_output/error_breakdown_*.csv
+data/sample_output/summary_*.json
+data/sample_claims.csv

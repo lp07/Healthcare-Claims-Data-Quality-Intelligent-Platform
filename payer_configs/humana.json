@@ -1,0 +1,16 @@
+{
+  "payer_name": "Humana",
+  "payer_id": "HUMANA",
+  "timely_filing_days": 365,
+  "subscriber_id_pattern": "^H[0-9]{8}[A-Z]$",
+  "required_fields": [
+    {
+      "field": "taxonomy_code",
+      "error_code": "HUMANA_001",
+      "message": "Humana requires provider taxonomy code on all claims.",
+      "severity": "WARNING",
+      "edi_segment": "PRV"
+    }
+  ],
+  "notes": "Humana subscriber ID: H + 8 digits + 1 letter."
+}

@@ -1,0 +1,16 @@
+{
+  "payer_name": "Blue Cross Blue Shield",
+  "payer_id": "BCBS",
+  "timely_filing_days": 365,
+  "subscriber_id_pattern": "^[A-Z]{3}[0-9]{9}$",
+  "required_fields": [
+    {
+      "field": "taxonomy_code",
+      "error_code": "BCBS_001",
+      "message": "BCBS requires provider taxonomy code on all professional claims.",
+      "severity": "WARNING",
+      "edi_segment": "PRV"
+    }
+  ],
+  "notes": "BCBS timely filing is 365 days from DOS. Subscriber ID: 3 letters + 9 digits."
+}

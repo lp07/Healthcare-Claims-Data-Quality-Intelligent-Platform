@@ -1,0 +1,16 @@
+{
+  "payer_name": "Cigna",
+  "payer_id": "CIGNA",
+  "timely_filing_days": 90,
+  "subscriber_id_pattern": "^U[0-9]{8}$",
+  "required_fields": [
+    {
+      "field": "authorization_number",
+      "error_code": "CIGNA_001",
+      "message": "Cigna requires prior authorization number for surgical and specialist procedures.",
+      "severity": "WARNING",
+      "edi_segment": "REF"
+    }
+  ],
+  "notes": "Cigna has strict 90-day timely filing. Subscriber ID: U + 8 digits."
+}

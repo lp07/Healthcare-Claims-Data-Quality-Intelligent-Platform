@@ -1,0 +1,616 @@
+claim_id,payer,status,billed_amount,error_code,field_name,severity,edi_segment,message
+CLM000001,BCBS,REJECTED,258.8,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000001,BCBS,REJECTED,258.8,PAYER_TF_001,date_of_service,CRITICAL,DTP,BCBS timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM000002,CIGNA,REJECTED,594.61,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000002,CIGNA,REJECTED,594.61,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 195 days old and will be denied.
+CLM000004,CIGNA,REJECTED,1074.93,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 256 days old and will be denied.
+CLM000005,HUMANA,FLAGGED,2451.65,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000007,AETNA,REJECTED,3019.92,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000007,AETNA,REJECTED,3019.92,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 282 days old and will be denied.
+CLM000008,BCBS,REJECTED,1145.9,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000010,HUMANA,REJECTED,1390.83,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000012,BCBS,REJECTED,190.52,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000013,CIGNA,REJECTED,2348.53,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 129 days old and will be denied.
+CLM000014,HUMANA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000016,CIGNA,REJECTED,3319.17,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 161 days old and will be denied.
+CLM000017,CIGNA,REJECTED,1900.44,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 152 days old and will be denied.
+CLM000020,MEDICARE,REJECTED,2258.0,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000022,HUMANA,REJECTED,4150.01,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000026,CIGNA,REJECTED,941.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 109 days old and will be denied.
+CLM000027,CIGNA,REJECTED,2208.68,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000027,CIGNA,REJECTED,2208.68,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.
+CLM000028,AETNA,REJECTED,1464.86,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 274 days old and will be denied.
+CLM000029,BCBS,REJECTED,810.01,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000032,CIGNA,REJECTED,262.51,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 118 days old and will be denied.
+CLM000033,AETNA,REJECTED,1584.65,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 254 days old and will be denied.
+CLM000034,CIGNA,REJECTED,2055.81,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000034,CIGNA,REJECTED,2055.81,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 249 days old and will be denied.
+CLM000036,CIGNA,REJECTED,2550.84,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 279 days old and will be denied.
+CLM000040,AETNA,REJECTED,2790.73,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 181 days old and will be denied.
+CLM000041,CIGNA,REJECTED,3762.56,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 132 days old and will be denied.
+CLM000042,CIGNA,REJECTED,621.31,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 120 days old and will be denied.
+CLM000043,CIGNA,REJECTED,3066.62,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000043,CIGNA,REJECTED,3066.62,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 277 days old and will be denied.
+CLM000044,BCBS,REJECTED,4278.2,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000045,AETNA,REJECTED,2711.51,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000047,CIGNA,REJECTED,2006.42,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 131 days old and will be denied.
+CLM000048,BCBS,REJECTED,2663.95,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000054,AETNA,REJECTED,320.27,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 225 days old and will be denied.
+CLM000055,CIGNA,REJECTED,1499.51,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000055,CIGNA,REJECTED,1499.51,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.
+CLM000056,AETNA,REJECTED,824.01,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000057,HUMANA,FLAGGED,4082.29,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000062,BCBS,FLAGGED,3916.22,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000068,AETNA,REJECTED,2724.37,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 298 days old and will be denied.
+CLM000071,BCBS,REJECTED,2024.54,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000072,AETNA,REJECTED,3254.12,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 243 days old and will be denied.
+CLM000075,AETNA,FLAGGED,4314.42,PAYER_SUB_001,subscriber_id,WARNING,NM1,AETNA subscriber ID 'nan' does not match expected format. Pattern: ^[0-9]{9}$
+CLM000078,CIGNA,REJECTED,1387.84,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 279 days old and will be denied.
+CLM000081,HUMANA,REJECTED,655.64,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000083,HUMANA,REJECTED,3079.72,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000085,CIGNA,REJECTED,4245.9,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 196 days old and will be denied.
+CLM000092,CIGNA,FLAGGED,2611.48,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000093,AETNA,REJECTED,2615.13,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 200 days old and will be denied.
+CLM000094,HUMANA,REJECTED,1142.4,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000095,HUMANA,REJECTED,2102.47,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000106,CIGNA,REJECTED,2746.33,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000107,CIGNA,REJECTED,2880.99,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 193 days old and will be denied.
+CLM000108,CIGNA,REJECTED,1619.23,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000108,CIGNA,REJECTED,1619.23,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 296 days old and will be denied.
+CLM000109,BCBS,REJECTED,2997.46,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000115,MEDICARE,REJECTED,427.84,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000115,MEDICARE,REJECTED,427.84,PAYER_TF_001,date_of_service,CRITICAL,DTP,MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM000119,CIGNA,REJECTED,602.18,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 272 days old and will be denied.
+CLM000120,AETNA,REJECTED,1179.96,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000122,AETNA,REJECTED,718.61,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 206 days old and will be denied.
+CLM000124,CIGNA,REJECTED,4120.15,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 258 days old and will be denied.
+CLM000127,MEDICARE,REJECTED,3166.99,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000129,CIGNA,REJECTED,2092.84,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000129,CIGNA,REJECTED,2092.84,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 136 days old and will be denied.
+CLM000130,BCBS,FLAGGED,1432.85,PAYER_SUB_001,subscriber_id,WARNING,NM1,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$
+CLM000131,AETNA,REJECTED,567.23,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000131,AETNA,REJECTED,567.23,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 202 days old and will be denied.
+CLM000132,HUMANA,REJECTED,1756.9,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000136,AETNA,REJECTED,2071.47,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 209 days old and will be denied.
+CLM000137,HUMANA,REJECTED,2914.03,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000139,CIGNA,REJECTED,2592.34,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 145 days old and will be denied.
+CLM000144,MEDICARE,REJECTED,1481.6,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000146,BCBS,REJECTED,1459.86,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000148,CIGNA,REJECTED,1705.24,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 225 days old and will be denied.
+CLM000150,MEDICARE,REJECTED,3488.75,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000151,AETNA,REJECTED,2349.22,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000151,AETNA,REJECTED,2349.22,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 241 days old and will be denied.
+CLM000154,CIGNA,REJECTED,618.78,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 213 days old and will be denied.
+CLM000156,CIGNA,REJECTED,3246.65,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 284 days old and will be denied.
+CLM000156,CIGNA,REJECTED,3246.65,PAYER_SUB_001,subscriber_id,WARNING,NM1,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$
+CLM000158,AETNA,FLAGGED,2372.51,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000160,AETNA,REJECTED,1959.3,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 275 days old and will be denied.
+CLM000162,AETNA,REJECTED,3912.54,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 218 days old and will be denied.
+CLM000165,CIGNA,REJECTED,1071.06,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 263 days old and will be denied.
+CLM000166,CIGNA,REJECTED,707.74,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 121 days old and will be denied.
+CLM000167,CIGNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000167,CIGNA,REJECTED,0.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 237 days old and will be denied.
+CLM000175,HUMANA,REJECTED,3584.57,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000181,MEDICARE,REJECTED,3899.8,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000182,CIGNA,REJECTED,480.73,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 92 days old and will be denied.
+CLM000185,MEDICARE,REJECTED,720.46,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000186,HUMANA,REJECTED,2323.25,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000188,AETNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000191,HUMANA,FLAGGED,1280.16,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000193,AETNA,REJECTED,365.9,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 274 days old and will be denied.
+CLM000194,AETNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000195,CIGNA,REJECTED,1014.45,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000196,CIGNA,REJECTED,2953.9,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 275 days old and will be denied.
+CLM000197,CIGNA,REJECTED,3335.95,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 141 days old and will be denied.
+CLM000199,MEDICARE,REJECTED,3272.63,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000201,CIGNA,REJECTED,2542.85,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 167 days old and will be denied.
+CLM000206,AETNA,REJECTED,3464.84,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000206,AETNA,REJECTED,3464.84,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 247 days old and will be denied.
+CLM000207,CIGNA,REJECTED,2830.56,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 227 days old and will be denied.
+CLM000208,AETNA,REJECTED,1036.54,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 268 days old and will be denied.
+CLM000209,BCBS,FLAGGED,232.99,PAYER_SUB_001,subscriber_id,WARNING,NM1,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$
+CLM000212,HUMANA,FLAGGED,4331.2,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000215,CIGNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000215,CIGNA,REJECTED,0.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 217 days old and will be denied.
+CLM000221,CIGNA,REJECTED,1670.98,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000221,CIGNA,REJECTED,1670.98,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 109 days old and will be denied.
+CLM000222,MEDICARE,REJECTED,4047.29,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000223,CIGNA,REJECTED,4428.74,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 274 days old and will be denied.
+CLM000224,AETNA,REJECTED,4123.09,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 228 days old and will be denied.
+CLM000226,CIGNA,REJECTED,765.77,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 146 days old and will be denied.
+CLM000227,AETNA,REJECTED,3251.11,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 274 days old and will be denied.
+CLM000234,CIGNA,REJECTED,2816.72,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000234,CIGNA,REJECTED,2816.72,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 176 days old and will be denied.
+CLM000235,HUMANA,REJECTED,508.92,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000236,HUMANA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000238,CIGNA,REJECTED,2996.39,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000238,CIGNA,REJECTED,2996.39,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 201 days old and will be denied.
+CLM000240,CIGNA,REJECTED,4306.88,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 136 days old and will be denied.
+CLM000241,BCBS,REJECTED,4208.09,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000245,CIGNA,FLAGGED,3720.22,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000246,BCBS,REJECTED,675.24,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000249,HUMANA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000250,CIGNA,REJECTED,703.37,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 292 days old and will be denied.
+CLM000251,CIGNA,REJECTED,213.09,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000251,CIGNA,REJECTED,213.09,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 220 days old and will be denied.
+CLM000252,BCBS,REJECTED,3165.25,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000257,CIGNA,REJECTED,2264.75,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000257,CIGNA,REJECTED,2264.75,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 272 days old and will be denied.
+CLM000262,CIGNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000262,CIGNA,REJECTED,0.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 193 days old and will be denied.
+CLM000263,HUMANA,REJECTED,690.17,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000264,AETNA,REJECTED,1704.63,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000265,MEDICARE,FLAGGED,1679.59,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000267,CIGNA,REJECTED,899.1,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000267,CIGNA,REJECTED,899.1,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 156 days old and will be denied.
+CLM000269,MEDICARE,REJECTED,168.83,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000271,CIGNA,REJECTED,929.94,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 252 days old and will be denied.
+CLM000271,CIGNA,REJECTED,929.94,PAYER_SUB_001,subscriber_id,WARNING,NM1,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$
+CLM000275,MEDICARE,REJECTED,392.46,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000276,CIGNA,REJECTED,1805.49,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 220 days old and will be denied.
+CLM000278,CIGNA,REJECTED,4367.01,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 104 days old and will be denied.
+CLM000281,CIGNA,REJECTED,2960.29,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 132 days old and will be denied.
+CLM000285,AETNA,REJECTED,1443.79,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000290,CIGNA,REJECTED,725.24,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 287 days old and will be denied.
+CLM000291,CIGNA,REJECTED,2816.25,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 136 days old and will be denied.
+CLM000292,HUMANA,REJECTED,327.44,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000295,CIGNA,REJECTED,2380.04,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 251 days old and will be denied.
+CLM000298,MEDICARE,REJECTED,3307.71,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000299,AETNA,REJECTED,2976.37,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 224 days old and will be denied.
+CLM000301,CIGNA,REJECTED,2100.22,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 224 days old and will be denied.
+CLM000307,AETNA,REJECTED,3982.24,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000308,CIGNA,REJECTED,1279.94,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000308,CIGNA,REJECTED,1279.94,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 260 days old and will be denied.
+CLM000309,CIGNA,REJECTED,2396.57,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 99 days old and will be denied.
+CLM000310,HUMANA,REJECTED,3733.58,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000311,CIGNA,REJECTED,4460.94,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 156 days old and will be denied.
+CLM000312,HUMANA,REJECTED,2217.24,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000315,CIGNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000315,CIGNA,REJECTED,0.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 164 days old and will be denied.
+CLM000316,MEDICARE,FLAGGED,3086.67,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000317,AETNA,REJECTED,2488.28,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000317,AETNA,REJECTED,2488.28,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 217 days old and will be denied.
+CLM000319,HUMANA,REJECTED,3466.72,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000321,AETNA,REJECTED,2550.27,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 290 days old and will be denied.
+CLM000323,BCBS,REJECTED,2237.85,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000325,HUMANA,REJECTED,3977.73,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000326,MEDICARE,REJECTED,2045.94,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000329,CIGNA,REJECTED,3661.63,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 193 days old and will be denied.
+CLM000333,AETNA,REJECTED,4219.42,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 192 days old and will be denied.
+CLM000334,CIGNA,REJECTED,3815.32,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 263 days old and will be denied.
+CLM000339,AETNA,REJECTED,2483.57,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 245 days old and will be denied.
+CLM000340,MEDICARE,FLAGGED,3974.69,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000342,AETNA,REJECTED,4103.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 211 days old and will be denied.
+CLM000343,HUMANA,REJECTED,2258.7,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000345,AETNA,REJECTED,547.53,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000345,AETNA,REJECTED,547.53,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 216 days old and will be denied.
+CLM000347,CIGNA,REJECTED,4404.39,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 247 days old and will be denied.
+CLM000350,CIGNA,REJECTED,1391.29,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000350,CIGNA,REJECTED,1391.29,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 230 days old and will be denied.
+CLM000351,AETNA,REJECTED,1269.22,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 238 days old and will be denied.
+CLM000353,AETNA,REJECTED,1256.15,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000353,AETNA,REJECTED,1256.15,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 297 days old and will be denied.
+CLM000355,HUMANA,FLAGGED,892.26,PAYER_SUB_001,subscriber_id,WARNING,NM1,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$
+CLM000356,CIGNA,REJECTED,279.05,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 121 days old and will be denied.
+CLM000357,HUMANA,REJECTED,1796.2,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000358,CIGNA,REJECTED,3949.44,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 167 days old and will be denied.
+CLM000362,BCBS,REJECTED,1339.52,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000363,CIGNA,REJECTED,1378.28,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 100 days old and will be denied.
+CLM000365,HUMANA,REJECTED,1215.75,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000366,MEDICARE,FLAGGED,4444.97,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000367,BCBS,REJECTED,1863.01,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000368,CIGNA,REJECTED,1731.48,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000368,CIGNA,REJECTED,1731.48,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 279 days old and will be denied.
+CLM000370,MEDICARE,REJECTED,2781.51,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000371,CIGNA,REJECTED,3534.61,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000372,CIGNA,REJECTED,4267.32,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 200 days old and will be denied.
+CLM000373,AETNA,REJECTED,2059.48,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 182 days old and will be denied.
+CLM000378,HUMANA,REJECTED,721.67,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000379,CIGNA,REJECTED,4475.02,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 127 days old and will be denied.
+CLM000383,AETNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000383,AETNA,REJECTED,0.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 290 days old and will be denied.
+CLM000384,AETNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000390,AETNA,REJECTED,1543.11,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 200 days old and will be denied.
+CLM000391,MEDICARE,REJECTED,3723.11,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000392,BCBS,REJECTED,4114.42,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000396,CIGNA,REJECTED,186.88,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 183 days old and will be denied.
+CLM000397,BCBS,REJECTED,4000.64,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000400,AETNA,REJECTED,3193.89,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 288 days old and will be denied.
+CLM000401,HUMANA,REJECTED,1074.96,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000405,MEDICARE,FLAGGED,4304.7,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000409,HUMANA,REJECTED,1201.97,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000410,AETNA,REJECTED,555.66,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000413,AETNA,REJECTED,1314.02,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 247 days old and will be denied.
+CLM000414,HUMANA,FLAGGED,2744.03,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000415,CIGNA,REJECTED,2017.83,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 96 days old and will be denied.
+CLM000417,BCBS,REJECTED,2194.04,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000418,CIGNA,REJECTED,3700.24,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000418,CIGNA,REJECTED,3700.24,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 276 days old and will be denied.
+CLM000420,BCBS,REJECTED,4377.18,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000422,CIGNA,REJECTED,575.49,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000422,CIGNA,REJECTED,575.49,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.
+CLM000423,MEDICARE,FLAGGED,3192.88,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000426,CIGNA,REJECTED,3239.18,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 266 days old and will be denied.
+CLM000427,CIGNA,REJECTED,3965.58,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000427,CIGNA,REJECTED,3965.58,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 279 days old and will be denied.
+CLM000428,AETNA,FLAGGED,2178.48,PAYER_SUB_001,subscriber_id,WARNING,NM1,AETNA subscriber ID 'nan' does not match expected format. Pattern: ^[0-9]{9}$
+CLM000430,HUMANA,REJECTED,1988.15,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000431,MEDICARE,REJECTED,2072.27,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000432,AETNA,REJECTED,2674.4,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 192 days old and will be denied.
+CLM000434,MEDICARE,REJECTED,2080.6,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000435,AETNA,REJECTED,3710.69,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000436,MEDICARE,REJECTED,2083.49,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000437,AETNA,REJECTED,1680.62,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 289 days old and will be denied.
+CLM000439,CIGNA,REJECTED,618.33,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000439,CIGNA,REJECTED,618.33,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 231 days old and will be denied.
+CLM000440,HUMANA,REJECTED,2622.08,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000443,BCBS,REJECTED,4010.71,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000445,AETNA,REJECTED,2786.64,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 246 days old and will be denied.
+CLM000448,BCBS,REJECTED,4108.73,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000449,CIGNA,REJECTED,3628.21,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 141 days old and will be denied.
+CLM000451,AETNA,REJECTED,3127.32,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 226 days old and will be denied.
+CLM000453,MEDICARE,REJECTED,3558.08,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000454,MEDICARE,REJECTED,3622.19,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000455,CIGNA,FLAGGED,3404.62,PAYER_SUB_001,subscriber_id,WARNING,NM1,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$
+CLM000456,CIGNA,REJECTED,663.14,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 210 days old and will be denied.
+CLM000457,MEDICARE,REJECTED,4146.01,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000458,CIGNA,REJECTED,4282.15,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 210 days old and will be denied.
+CLM000459,CIGNA,REJECTED,360.05,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 266 days old and will be denied.
+CLM000459,CIGNA,REJECTED,360.05,PAYER_SUB_001,subscriber_id,WARNING,NM1,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$
+CLM000462,BCBS,REJECTED,2035.19,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000464,HUMANA,REJECTED,2750.61,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000465,CIGNA,REJECTED,2357.57,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 210 days old and will be denied.
+CLM000468,HUMANA,REJECTED,720.69,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000472,HUMANA,FLAGGED,2523.31,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000476,HUMANA,REJECTED,2692.44,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000478,CIGNA,REJECTED,3244.36,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 224 days old and will be denied.
+CLM000481,CIGNA,REJECTED,4427.8,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000481,CIGNA,REJECTED,4427.8,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 100 days old and will be denied.
+CLM000482,MEDICARE,REJECTED,1014.27,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000483,BCBS,FLAGGED,943.88,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000486,CIGNA,REJECTED,2602.4,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000487,CIGNA,REJECTED,2764.1,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 248 days old and will be denied.
+CLM000488,AETNA,REJECTED,715.03,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000490,CIGNA,REJECTED,1725.92,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000490,CIGNA,REJECTED,1725.92,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 257 days old and will be denied.
+CLM000494,AETNA,REJECTED,912.27,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 274 days old and will be denied.
+CLM000497,CIGNA,REJECTED,572.59,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 116 days old and will be denied.
+CLM000500,CIGNA,REJECTED,2335.03,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000500,CIGNA,REJECTED,2335.03,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.
+CLM000503,AETNA,REJECTED,3615.88,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 237 days old and will be denied.
+CLM000506,AETNA,FLAGGED,787.39,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000511,CIGNA,REJECTED,1299.27,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 273 days old and will be denied.
+CLM000512,MEDICARE,REJECTED,3728.13,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000522,MEDICARE,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000523,BCBS,REJECTED,4260.3,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000528,CIGNA,REJECTED,966.7,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 296 days old and will be denied.
+CLM000530,AETNA,REJECTED,2598.54,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 272 days old and will be denied.
+CLM000531,CIGNA,REJECTED,151.54,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 129 days old and will be denied.
+CLM000533,CIGNA,REJECTED,640.84,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 239 days old and will be denied.
+CLM000537,CIGNA,REJECTED,4385.07,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 128 days old and will be denied.
+CLM000539,CIGNA,REJECTED,784.08,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 175 days old and will be denied.
+CLM000541,AETNA,REJECTED,1542.67,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 183 days old and will be denied.
+CLM000543,CIGNA,REJECTED,1587.82,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 292 days old and will be denied.
+CLM000550,BCBS,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000553,HUMANA,FLAGGED,3361.81,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000554,AETNA,REJECTED,1611.12,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 225 days old and will be denied.
+CLM000557,HUMANA,REJECTED,3653.71,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000558,AETNA,REJECTED,2622.48,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000560,MEDICARE,REJECTED,2458.06,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000560,MEDICARE,REJECTED,2458.06,PAYER_TF_001,date_of_service,CRITICAL,DTP,MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM000561,BCBS,FLAGGED,1728.79,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000562,BCBS,REJECTED,2699.86,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000565,CIGNA,REJECTED,3278.16,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 283 days old and will be denied.
+CLM000567,MEDICARE,REJECTED,987.98,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000569,CIGNA,REJECTED,3349.18,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 272 days old and will be denied.
+CLM000570,CIGNA,REJECTED,2110.92,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000570,CIGNA,REJECTED,2110.92,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 246 days old and will be denied.
+CLM000571,AETNA,REJECTED,3578.95,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 196 days old and will be denied.
+CLM000572,HUMANA,FLAGGED,2032.92,PAYER_SUB_001,subscriber_id,WARNING,NM1,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$
+CLM000574,MEDICARE,REJECTED,2800.83,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000575,HUMANA,REJECTED,3531.83,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000576,HUMANA,FLAGGED,1990.01,PAYER_SUB_001,subscriber_id,WARNING,NM1,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$
+CLM000577,MEDICARE,FLAGGED,709.13,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000578,MEDICARE,REJECTED,3786.92,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000579,AETNA,REJECTED,4239.53,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000581,MEDICARE,REJECTED,4058.82,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000582,CIGNA,REJECTED,1857.95,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000582,CIGNA,REJECTED,1857.95,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 147 days old and will be denied.
+CLM000585,BCBS,REJECTED,1367.91,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000586,AETNA,REJECTED,1087.32,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000586,AETNA,REJECTED,1087.32,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 204 days old and will be denied.
+CLM000588,HUMANA,REJECTED,1717.43,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000592,BCBS,REJECTED,1802.86,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000593,AETNA,REJECTED,2164.83,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 290 days old and will be denied.
+CLM000594,AETNA,REJECTED,1629.31,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 299 days old and will be denied.
+CLM000598,CIGNA,REJECTED,1849.88,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 116 days old and will be denied.
+CLM000600,CIGNA,REJECTED,3955.17,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 263 days old and will be denied.
+CLM000602,HUMANA,REJECTED,164.21,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000603,BCBS,REJECTED,2535.93,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000605,BCBS,REJECTED,1188.65,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000606,AETNA,REJECTED,3210.04,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 194 days old and will be denied.
+CLM000607,HUMANA,REJECTED,4104.97,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000608,BCBS,REJECTED,2434.85,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000609,BCBS,FLAGGED,1320.34,PAYER_SUB_001,subscriber_id,WARNING,NM1,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$
+CLM000611,MEDICARE,REJECTED,3881.98,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000619,BCBS,REJECTED,2044.96,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000621,AETNA,REJECTED,4052.19,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 252 days old and will be denied.
+CLM000626,HUMANA,REJECTED,2713.54,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000627,BCBS,REJECTED,4320.07,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000630,CIGNA,REJECTED,3862.75,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000630,CIGNA,REJECTED,3862.75,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 222 days old and will be denied.
+CLM000631,CIGNA,REJECTED,2971.92,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 213 days old and will be denied.
+CLM000634,BCBS,REJECTED,2191.12,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000637,CIGNA,REJECTED,2078.84,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000637,CIGNA,REJECTED,2078.84,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 104 days old and will be denied.
+CLM000638,CIGNA,REJECTED,762.04,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000638,CIGNA,REJECTED,762.04,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.
+CLM000642,AETNA,REJECTED,2466.31,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000642,AETNA,REJECTED,2466.31,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 253 days old and will be denied.
+CLM000643,CIGNA,REJECTED,2947.13,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000643,CIGNA,REJECTED,2947.13,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 231 days old and will be denied.
+CLM000644,MEDICARE,FLAGGED,2685.52,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000645,AETNA,FLAGGED,1168.86,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000646,HUMANA,FLAGGED,622.08,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000652,CIGNA,REJECTED,535.8,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000652,CIGNA,REJECTED,535.8,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 265 days old and will be denied.
+CLM000655,AETNA,REJECTED,240.09,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 215 days old and will be denied.
+CLM000660,AETNA,REJECTED,4003.6,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000671,BCBS,FLAGGED,358.44,PAYER_SUB_001,subscriber_id,WARNING,NM1,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$
+CLM000672,AETNA,REJECTED,403.09,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 230 days old and will be denied.
+CLM000675,CIGNA,REJECTED,3769.2,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 204 days old and will be denied.
+CLM000680,AETNA,REJECTED,4044.1,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 206 days old and will be denied.
+CLM000683,MEDICARE,FLAGGED,3833.33,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000684,CIGNA,REJECTED,1842.48,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 295 days old and will be denied.
+CLM000693,AETNA,REJECTED,4064.35,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 246 days old and will be denied.
+CLM000695,AETNA,REJECTED,3583.68,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 277 days old and will be denied.
+CLM000697,CIGNA,REJECTED,751.5,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 286 days old and will be denied.
+CLM000699,CIGNA,REJECTED,1177.85,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 199 days old and will be denied.
+CLM000701,AETNA,REJECTED,382.74,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000705,CIGNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000707,AETNA,REJECTED,2728.45,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000712,CIGNA,REJECTED,1229.85,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000713,HUMANA,REJECTED,3716.19,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000716,HUMANA,REJECTED,3040.94,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000717,HUMANA,REJECTED,2677.5,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000720,HUMANA,FLAGGED,4040.82,PAYER_SUB_001,subscriber_id,WARNING,NM1,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$
+CLM000723,BCBS,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000724,CIGNA,REJECTED,2757.8,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000724,CIGNA,REJECTED,2757.8,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 195 days old and will be denied.
+CLM000725,CIGNA,REJECTED,1519.15,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000725,CIGNA,REJECTED,1519.15,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 187 days old and will be denied.
+CLM000726,HUMANA,REJECTED,1613.81,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000727,MEDICARE,REJECTED,442.9,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000731,CIGNA,REJECTED,2987.1,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 174 days old and will be denied.
+CLM000733,CIGNA,REJECTED,3837.8,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 157 days old and will be denied.
+CLM000734,CIGNA,REJECTED,3144.69,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 244 days old and will be denied.
+CLM000735,MEDICARE,REJECTED,2445.47,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000739,AETNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000739,AETNA,REJECTED,0.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 210 days old and will be denied.
+CLM000740,BCBS,REJECTED,206.73,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000743,AETNA,REJECTED,4242.24,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000743,AETNA,REJECTED,4242.24,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 237 days old and will be denied.
+CLM000744,AETNA,REJECTED,2773.74,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 245 days old and will be denied.
+CLM000745,AETNA,REJECTED,699.53,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000745,AETNA,REJECTED,699.53,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 188 days old and will be denied.
+CLM000746,BCBS,REJECTED,2261.82,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000750,AETNA,REJECTED,1979.94,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000751,CIGNA,REJECTED,1602.87,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 229 days old and will be denied.
+CLM000754,AETNA,REJECTED,3823.68,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 238 days old and will be denied.
+CLM000754,AETNA,REJECTED,3823.68,PAYER_SUB_001,subscriber_id,WARNING,NM1,AETNA subscriber ID 'nan' does not match expected format. Pattern: ^[0-9]{9}$
+CLM000755,AETNA,REJECTED,4228.94,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000757,MEDICARE,FLAGGED,3840.01,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000758,CIGNA,REJECTED,3753.72,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000761,HUMANA,REJECTED,3069.01,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000764,MEDICARE,FLAGGED,4102.47,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000765,AETNA,REJECTED,2825.43,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000765,AETNA,REJECTED,2825.43,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 275 days old and will be denied.
+CLM000767,AETNA,REJECTED,4216.83,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 226 days old and will be denied.
+CLM000768,BCBS,REJECTED,1296.97,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000771,MEDICARE,REJECTED,4284.11,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000773,HUMANA,FLAGGED,1589.09,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000774,CIGNA,REJECTED,1759.24,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 275 days old and will be denied.
+CLM000775,CIGNA,REJECTED,744.68,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000775,CIGNA,REJECTED,744.68,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.
+CLM000781,AETNA,REJECTED,156.2,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000781,AETNA,REJECTED,156.2,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 187 days old and will be denied.
+CLM000782,BCBS,REJECTED,2287.56,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000786,BCBS,REJECTED,2627.65,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000791,MEDICARE,REJECTED,2108.1,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000791,MEDICARE,REJECTED,2108.1,PAYER_TF_001,date_of_service,CRITICAL,DTP,MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM000792,AETNA,REJECTED,313.71,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000792,AETNA,REJECTED,313.71,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 198 days old and will be denied.
+CLM000797,AETNA,REJECTED,3342.2,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 237 days old and will be denied.
+CLM000800,CIGNA,REJECTED,430.19,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000800,CIGNA,REJECTED,430.19,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 135 days old and will be denied.
+CLM000802,BCBS,REJECTED,3343.18,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000805,CIGNA,REJECTED,1825.96,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 274 days old and will be denied.
+CLM000813,HUMANA,REJECTED,2924.46,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000813,HUMANA,REJECTED,2924.46,PAYER_TF_001,date_of_service,CRITICAL,DTP,HUMANA timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM000814,BCBS,REJECTED,1374.11,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000815,AETNA,REJECTED,3403.78,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000815,AETNA,REJECTED,3403.78,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 277 days old and will be denied.
+CLM000820,AETNA,REJECTED,1643.91,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000821,BCBS,REJECTED,2556.62,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000822,CIGNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000825,CIGNA,REJECTED,2029.17,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 292 days old and will be denied.
+CLM000826,BCBS,REJECTED,1861.27,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000827,CIGNA,REJECTED,2062.16,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000830,BCBS,REJECTED,1916.45,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000835,CIGNA,REJECTED,2236.65,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 296 days old and will be denied.
+CLM000837,MEDICARE,REJECTED,2451.68,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000840,CIGNA,REJECTED,539.02,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 161 days old and will be denied.
+CLM000843,CIGNA,REJECTED,2518.8,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 221 days old and will be denied.
+CLM000845,CIGNA,REJECTED,1931.74,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 136 days old and will be denied.
+CLM000846,AETNA,REJECTED,4180.56,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 295 days old and will be denied.
+CLM000847,CIGNA,REJECTED,2488.72,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000848,HUMANA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000849,AETNA,REJECTED,4369.01,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000851,HUMANA,REJECTED,1040.38,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000856,AETNA,REJECTED,4164.83,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 241 days old and will be denied.
+CLM000857,BCBS,REJECTED,892.67,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000858,BCBS,REJECTED,2284.53,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000861,BCBS,REJECTED,2671.46,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000862,BCBS,REJECTED,4157.91,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000864,BCBS,REJECTED,3145.92,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000866,MEDICARE,REJECTED,773.46,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000869,AETNA,REJECTED,1350.87,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000870,CIGNA,REJECTED,3908.81,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 108 days old and will be denied.
+CLM000871,BCBS,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000872,BCBS,REJECTED,1660.83,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000873,AETNA,REJECTED,421.8,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000874,BCBS,FLAGGED,3998.12,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000878,MEDICARE,REJECTED,3059.67,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000884,CIGNA,REJECTED,2339.16,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 167 days old and will be denied.
+CLM000893,HUMANA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000899,AETNA,REJECTED,3054.84,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 261 days old and will be denied.
+CLM000900,AETNA,REJECTED,3891.26,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 182 days old and will be denied.
+CLM000902,AETNA,REJECTED,3445.36,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 286 days old and will be denied.
+CLM000908,CIGNA,REJECTED,655.92,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 101 days old and will be denied.
+CLM000913,BCBS,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM000914,HUMANA,REJECTED,2725.81,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000918,AETNA,REJECTED,2166.88,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 235 days old and will be denied.
+CLM000922,BCBS,REJECTED,3023.23,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000924,HUMANA,REJECTED,4064.96,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM000926,CIGNA,REJECTED,3805.74,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 262 days old and will be denied.
+CLM000932,BCBS,REJECTED,2973.3,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000934,AETNA,REJECTED,2149.36,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000936,CIGNA,FLAGGED,311.12,PAYER_SUB_001,subscriber_id,WARNING,NM1,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$
+CLM000940,MEDICARE,FLAGGED,553.06,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000942,AETNA,REJECTED,4145.62,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000943,HUMANA,REJECTED,470.48,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000945,CIGNA,FLAGGED,1156.0,PAYER_SUB_001,subscriber_id,WARNING,NM1,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$
+CLM000946,CIGNA,REJECTED,4176.92,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 116 days old and will be denied.
+CLM000947,BCBS,REJECTED,1519.8,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM000950,BCBS,REJECTED,1778.01,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000950,BCBS,REJECTED,1778.01,PAYER_TF_001,date_of_service,CRITICAL,DTP,BCBS timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM000960,MEDICARE,REJECTED,2757.64,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000962,CIGNA,REJECTED,3336.18,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 260 days old and will be denied.
+CLM000964,MEDICARE,REJECTED,2810.56,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000965,BCBS,REJECTED,2118.96,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000969,CIGNA,REJECTED,2466.77,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 236 days old and will be denied.
+CLM000971,CIGNA,REJECTED,871.0,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000971,CIGNA,REJECTED,871.0,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 216 days old and will be denied.
+CLM000972,CIGNA,REJECTED,3724.41,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM000972,CIGNA,REJECTED,3724.41,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 289 days old and will be denied.
+CLM000974,AETNA,REJECTED,2163.04,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000975,HUMANA,REJECTED,1883.88,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM000977,CIGNA,REJECTED,2152.05,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 212 days old and will be denied.
+CLM000979,BCBS,REJECTED,2685.09,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM000979,BCBS,REJECTED,2685.09,PAYER_TF_001,date_of_service,CRITICAL,DTP,BCBS timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM000980,HUMANA,FLAGGED,2351.24,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM000981,AETNA,FLAGGED,1135.88,PAYER_SUB_001,subscriber_id,WARNING,NM1,AETNA subscriber ID 'nan' does not match expected format. Pattern: ^[0-9]{9}$
+CLM000985,HUMANA,REJECTED,1707.66,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000987,MEDICARE,REJECTED,1556.69,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000988,HUMANA,REJECTED,3434.37,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM000989,CIGNA,REJECTED,1391.55,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 226 days old and will be denied.
+CLM000991,CIGNA,REJECTED,929.55,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 101 days old and will be denied.
+CLM000994,AETNA,REJECTED,1297.13,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 263 days old and will be denied.
+CLM000996,CIGNA,REJECTED,4168.55,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM000996,CIGNA,REJECTED,4168.55,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 202 days old and will be denied.
+CLM000999,AETNA,REJECTED,2211.83,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 195 days old and will be denied.
+CLM001001,MEDICARE,REJECTED,1290.85,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM001001,MEDICARE,REJECTED,1290.85,PAYER_TF_001,date_of_service,CRITICAL,DTP,MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM001006,AETNA,REJECTED,4372.33,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 267 days old and will be denied.
+CLM001008,CIGNA,REJECTED,877.41,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 166 days old and will be denied.
+CLM001009,AETNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM001010,BCBS,REJECTED,2222.39,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM001011,HUMANA,REJECTED,882.98,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001020,HUMANA,REJECTED,837.0,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001021,CIGNA,REJECTED,3419.13,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 111 days old and will be denied.
+CLM001027,HUMANA,FLAGGED,1945.4,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM001028,CIGNA,REJECTED,1524.26,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001028,CIGNA,REJECTED,1524.26,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 177 days old and will be denied.
+CLM001030,CIGNA,REJECTED,3128.94,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 138 days old and will be denied.
+CLM001033,AETNA,REJECTED,1989.44,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 232 days old and will be denied.
+CLM001035,AETNA,REJECTED,4289.72,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 261 days old and will be denied.
+CLM001036,AETNA,REJECTED,332.97,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001037,CIGNA,REJECTED,2394.41,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 200 days old and will be denied.
+CLM001038,CIGNA,REJECTED,1700.94,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001038,CIGNA,REJECTED,1700.94,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 277 days old and will be denied.
+CLM001039,CIGNA,REJECTED,2496.5,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 138 days old and will be denied.
+CLM001042,HUMANA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM001044,MEDICARE,REJECTED,647.16,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM001045,CIGNA,REJECTED,3824.43,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 173 days old and will be denied.
+CLM001046,HUMANA,REJECTED,3860.83,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001047,AETNA,REJECTED,240.44,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 201 days old and will be denied.
+CLM001050,CIGNA,REJECTED,3495.6,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001051,CIGNA,REJECTED,758.7,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM001051,CIGNA,REJECTED,758.7,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 217 days old and will be denied.
+CLM001053,AETNA,REJECTED,2096.83,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 204 days old and will be denied.
+CLM001056,HUMANA,REJECTED,1670.68,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM001056,HUMANA,REJECTED,1670.68,PAYER_TF_001,date_of_service,CRITICAL,DTP,HUMANA timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM001057,AETNA,REJECTED,1925.12,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001059,HUMANA,REJECTED,4049.01,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM001062,BCBS,FLAGGED,425.95,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM001063,BCBS,REJECTED,635.79,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM001065,AETNA,REJECTED,3829.47,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM001072,CIGNA,REJECTED,187.01,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 106 days old and will be denied.
+CLM001072,CIGNA,REJECTED,187.01,PAYER_SUB_001,subscriber_id,WARNING,NM1,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$
+CLM001075,CIGNA,REJECTED,603.27,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 111 days old and will be denied.
+CLM001076,BCBS,FLAGGED,1178.02,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM001077,AETNA,REJECTED,1095.76,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001082,HUMANA,REJECTED,599.6,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM001084,CIGNA,REJECTED,2340.32,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 175 days old and will be denied.
+CLM001087,BCBS,FLAGGED,3966.45,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM001089,BCBS,REJECTED,663.37,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM001092,MEDICARE,REJECTED,1256.65,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001099,HUMANA,REJECTED,3458.57,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM001100,CIGNA,REJECTED,2945.75,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 258 days old and will be denied.
+CLM001101,AETNA,REJECTED,1161.94,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 276 days old and will be denied.
+CLM001106,HUMANA,FLAGGED,2373.38,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM001112,CIGNA,REJECTED,2647.91,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM001112,CIGNA,REJECTED,2647.91,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.
+CLM001113,AETNA,REJECTED,406.15,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001116,HUMANA,REJECTED,4302.53,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001117,HUMANA,FLAGGED,4120.98,PAYER_SUB_001,subscriber_id,WARNING,NM1,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$
+CLM001120,BCBS,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM001121,MEDICARE,REJECTED,3330.18,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM001121,MEDICARE,REJECTED,3330.18,PAYER_TF_001,date_of_service,CRITICAL,DTP,MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM001122,HUMANA,REJECTED,2296.4,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM001123,AETNA,REJECTED,331.54,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 262 days old and will be denied.
+CLM001124,AETNA,REJECTED,503.05,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 245 days old and will be denied.
+CLM001125,CIGNA,REJECTED,1605.71,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 138 days old and will be denied.
+CLM001126,BCBS,REJECTED,523.5,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM001127,CIGNA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM001128,HUMANA,REJECTED,2903.52,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM001129,CIGNA,REJECTED,4368.85,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 112 days old and will be denied.
+CLM001131,HUMANA,REJECTED,1333.69,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM001133,CIGNA,REJECTED,2161.19,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001133,CIGNA,REJECTED,2161.19,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 118 days old and will be denied.
+CLM001135,MEDICARE,FLAGGED,1461.14,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM001139,MEDICARE,REJECTED,1922.71,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001140,CIGNA,REJECTED,974.59,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001140,CIGNA,REJECTED,974.59,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 240 days old and will be denied.
+CLM001141,BCBS,REJECTED,4126.65,DATE_003,date_of_service,CRITICAL,DTP,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.
+CLM001145,HUMANA,REJECTED,4152.58,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001147,CIGNA,REJECTED,3611.93,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 132 days old and will be denied.
+CLM001148,BCBS,REJECTED,3217.48,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001149,AETNA,REJECTED,641.9,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 293 days old and will be denied.
+CLM001150,CIGNA,REJECTED,4144.5,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 194 days old and will be denied.
+CLM001155,CIGNA,REJECTED,3706.68,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 154 days old and will be denied.
+CLM001159,HUMANA,REJECTED,2812.08,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001162,AETNA,REJECTED,4150.63,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001162,AETNA,REJECTED,4150.63,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 266 days old and will be denied.
+CLM001164,HUMANA,REJECTED,1539.99,DATE_004,date_of_service,WARNING,DTP,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit).
+CLM001164,HUMANA,REJECTED,1539.99,PAYER_TF_001,date_of_service,CRITICAL,DTP,HUMANA timely filing limit is 365 days. This claim is 400 days old and will be denied.
+CLM001169,CIGNA,REJECTED,3890.69,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001169,CIGNA,REJECTED,3890.69,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 237 days old and will be denied.
+CLM001170,CIGNA,REJECTED,695.32,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 242 days old and will be denied.
+CLM001171,BCBS,REJECTED,1110.58,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM001172,CIGNA,REJECTED,697.55,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 115 days old and will be denied.
+CLM001174,BCBS,FLAGGED,3257.63,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM001175,HUMANA,REJECTED,0.0,AMT_002,billed_amount,CRITICAL,CLM,Billed amount '0.0' must be greater than zero.
+CLM001176,MEDICARE,REJECTED,2493.49,NPI_006,rendering_npi,CRITICAL,NM1,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.
+CLM001178,BCBS,REJECTED,4245.0,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM001179,MEDICARE,REJECTED,2898.35,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM001185,CIGNA,REJECTED,3059.43,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 188 days old and will be denied.
+CLM001186,AETNA,REJECTED,230.16,NPI_003,billing_npi,CRITICAL,NM1,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.
+CLM001188,BCBS,REJECTED,269.61,DX_002,primary_diagnosis_code,CRITICAL,HI,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23)."
+CLM001189,AETNA,FLAGGED,2117.69,DX_004,diagnosis_pointer,WARNING,SV1,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.
+CLM001192,HUMANA,REJECTED,982.56,NPI_002,billing_npi,CRITICAL,NM1,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.
+CLM001193,BCBS,FLAGGED,256.61,PAYER_SUB_001,subscriber_id,WARNING,NM1,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$
+CLM001194,AETNA,REJECTED,3436.94,PAYER_TF_001,date_of_service,CRITICAL,DTP,AETNA timely filing limit is 180 days. This claim is 265 days old and will be denied.
+CLM001195,CIGNA,REJECTED,3023.53,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 258 days old and will be denied.
+CLM001200,CIGNA,REJECTED,1603.72,PROC_002,procedure_code,CRITICAL,SV1,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.
+CLM001200,CIGNA,REJECTED,1603.72,PAYER_TF_001,date_of_service,CRITICAL,DTP,CIGNA timely filing limit is 90 days. This claim is 217 days old and will be denied.

@@ -1,0 +1,1201 @@
+claim_id,patient_id,payer,billed_amount,status,error_count,critical_error_count,error_codes,error_messages,revenue_at_risk
+CLM000001,PAT42098,BCBS,258.8,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | BCBS timely filing limit is 365 days. This claim is 400 days old and will be denied.,258.8
+CLM000002,PAT22676,CIGNA,594.61,REJECTED,2,2,PROC_002|PAYER_TF_001,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format. | CIGNA timely filing limit is 90 days. This claim is 195 days old and will be denied.,594.61
+CLM000003,PAT93320,BCBS,1803.55,VALID,0,0,,,0.0
+CLM000004,PAT61856,CIGNA,1074.93,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 256 days old and will be denied.,1074.93
+CLM000005,PAT11504,HUMANA,2451.65,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2451.65
+CLM000006,PAT74042,MEDICARE,4145.45,VALID,0,0,,,0.0
+CLM000007,PAT31643,AETNA,3019.92,REJECTED,2,2,NPI_003|PAYER_TF_001,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits. | AETNA timely filing limit is 180 days. This claim is 282 days old and will be denied.,3019.92
+CLM000008,PAT53309,BCBS,1145.9,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,1145.9
+CLM000009,PAT65296,AETNA,2482.84,VALID,0,0,,,0.0
+CLM000010,PAT96752,HUMANA,1390.83,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1390.83
+CLM000011,PAT91183,MEDICARE,1221.04,VALID,0,0,,,0.0
+CLM000012,PAT23104,BCBS,190.52,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,190.52
+CLM000013,PAT16658,CIGNA,2348.53,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 129 days old and will be denied.,2348.53
+CLM000014,PAT57795,HUMANA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000015,PAT71694,BCBS,1814.06,VALID,0,0,,,0.0
+CLM000016,PAT67199,CIGNA,3319.17,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 161 days old and will be denied.,3319.17
+CLM000017,PAT82667,CIGNA,1900.44,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 152 days old and will be denied.,1900.44
+CLM000018,PAT77561,AETNA,3016.0,VALID,0,0,,,0.0
+CLM000019,PAT33053,BCBS,3536.13,VALID,0,0,,,0.0
+CLM000020,PAT45992,MEDICARE,2258.0,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",2258.0
+CLM000021,PAT81121,BCBS,1954.68,VALID,0,0,,,0.0
+CLM000022,PAT13534,HUMANA,4150.01,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,4150.01
+CLM000023,PAT36130,BCBS,3430.91,VALID,0,0,,,0.0
+CLM000024,PAT99687,AETNA,593.27,VALID,0,0,,,0.0
+CLM000025,PAT67091,MEDICARE,3519.69,VALID,0,0,,,0.0
+CLM000026,PAT56507,CIGNA,941.0,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 109 days old and will be denied.,941.0
+CLM000027,PAT55056,CIGNA,2208.68,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.,2208.68
+CLM000028,PAT26591,AETNA,1464.86,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 274 days old and will be denied.,1464.86
+CLM000029,PAT49824,BCBS,810.01,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,810.01
+CLM000030,PAT48175,HUMANA,3148.76,VALID,0,0,,,0.0
+CLM000031,PAT47828,MEDICARE,3407.97,VALID,0,0,,,0.0
+CLM000032,PAT98381,CIGNA,262.51,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 118 days old and will be denied.,262.51
+CLM000033,PAT47777,AETNA,1584.65,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 254 days old and will be denied.,1584.65
+CLM000034,PAT25915,CIGNA,2055.81,REJECTED,2,2,DX_002|PAYER_TF_001,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23). | CIGNA timely filing limit is 90 days. This claim is 249 days old and will be denied.",2055.81
+CLM000035,PAT19150,MEDICARE,2360.85,VALID,0,0,,,0.0
+CLM000036,PAT59441,CIGNA,2550.84,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 279 days old and will be denied.,2550.84
+CLM000037,PAT12011,BCBS,2437.89,VALID,0,0,,,0.0
+CLM000038,PAT13794,BCBS,2080.0,VALID,0,0,,,0.0
+CLM000039,PAT87014,AETNA,471.3,VALID,0,0,,,0.0
+CLM000040,PAT38705,AETNA,2790.73,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 181 days old and will be denied.,2790.73
+CLM000041,PAT73156,CIGNA,3762.56,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 132 days old and will be denied.,3762.56
+CLM000042,PAT71797,CIGNA,621.31,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 120 days old and will be denied.,621.31
+CLM000043,PAT64935,CIGNA,3066.62,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | CIGNA timely filing limit is 90 days. This claim is 277 days old and will be denied.,3066.62
+CLM000044,PAT22015,BCBS,4278.2,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",4278.2
+CLM000045,PAT32838,AETNA,2711.51,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,2711.51
+CLM000046,PAT52219,HUMANA,469.68,VALID,0,0,,,0.0
+CLM000047,PAT59060,CIGNA,2006.42,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 131 days old and will be denied.,2006.42
+CLM000048,PAT30280,BCBS,2663.95,REJECTED,1,1,DX_002,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23).",2663.95
+CLM000049,PAT22026,HUMANA,452.7,VALID,0,0,,,0.0
+CLM000050,PAT79066,BCBS,1382.12,VALID,0,0,,,0.0
+CLM000051,PAT66267,BCBS,3900.18,VALID,0,0,,,0.0
+CLM000052,PAT55793,BCBS,2458.13,VALID,0,0,,,0.0
+CLM000053,PAT17456,CIGNA,2158.58,VALID,0,0,,,0.0
+CLM000054,PAT67595,AETNA,320.27,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 225 days old and will be denied.,320.27
+CLM000055,PAT26901,CIGNA,1499.51,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.,1499.51
+CLM000056,PAT23256,AETNA,824.01,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,824.01
+CLM000057,PAT58213,HUMANA,4082.29,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,4082.29
+CLM000058,PAT67340,HUMANA,4088.08,VALID,0,0,,,0.0
+CLM000059,PAT43544,BCBS,4090.48,VALID,0,0,,,0.0
+CLM000060,PAT78614,AETNA,3040.02,VALID,0,0,,,0.0
+CLM000061,PAT99742,CIGNA,3688.76,VALID,0,0,,,0.0
+CLM000062,PAT45811,BCBS,3916.22,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3916.22
+CLM000063,PAT56210,HUMANA,1679.23,VALID,0,0,,,0.0
+CLM000064,PAT58623,MEDICARE,817.46,VALID,0,0,,,0.0
+CLM000065,PAT68493,MEDICARE,662.26,VALID,0,0,,,0.0
+CLM000066,PAT49315,BCBS,2542.49,VALID,0,0,,,0.0
+CLM000067,PAT55156,BCBS,2107.39,VALID,0,0,,,0.0
+CLM000068,PAT30210,AETNA,2724.37,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 298 days old and will be denied.,2724.37
+CLM000069,PAT17852,HUMANA,1443.84,VALID,0,0,,,0.0
+CLM000070,PAT42541,HUMANA,3909.11,VALID,0,0,,,0.0
+CLM000071,PAT57943,BCBS,2024.54,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2024.54
+CLM000072,PAT78069,AETNA,3254.12,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 243 days old and will be denied.,3254.12
+CLM000073,PAT95929,BCBS,2746.56,VALID,0,0,,,0.0
+CLM000074,PAT96799,MEDICARE,1051.94,VALID,0,0,,,0.0
+CLM000075,PAT83149,AETNA,4314.42,FLAGGED,1,0,PAYER_SUB_001,AETNA subscriber ID 'nan' does not match expected format. Pattern: ^[0-9]{9}$,4314.42
+CLM000076,PAT95979,BCBS,1656.68,VALID,0,0,,,0.0
+CLM000077,PAT47649,HUMANA,2226.9,VALID,0,0,,,0.0
+CLM000078,PAT78723,CIGNA,1387.84,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 279 days old and will be denied.,1387.84
+CLM000079,PAT72580,BCBS,953.8,VALID,0,0,,,0.0
+CLM000080,PAT64505,HUMANA,816.36,VALID,0,0,,,0.0
+CLM000081,PAT86434,HUMANA,655.64,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,655.64
+CLM000082,PAT14159,BCBS,4439.7,VALID,0,0,,,0.0
+CLM000083,PAT65591,HUMANA,3079.72,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3079.72
+CLM000084,PAT17398,HUMANA,1169.38,VALID,0,0,,,0.0
+CLM000085,PAT78742,CIGNA,4245.9,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 196 days old and will be denied.,4245.9
+CLM000086,PAT80206,HUMANA,3835.03,VALID,0,0,,,0.0
+CLM000087,PAT52154,HUMANA,4130.8,VALID,0,0,,,0.0
+CLM000088,PAT29976,MEDICARE,3282.05,VALID,0,0,,,0.0
+CLM000089,PAT32185,HUMANA,881.82,VALID,0,0,,,0.0
+CLM000090,PAT96413,BCBS,2837.58,VALID,0,0,,,0.0
+CLM000091,PAT49318,MEDICARE,1207.95,VALID,0,0,,,0.0
+CLM000092,PAT79226,CIGNA,2611.48,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2611.48
+CLM000093,PAT98740,AETNA,2615.13,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 200 days old and will be denied.,2615.13
+CLM000094,PAT59207,HUMANA,1142.4,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",1142.4
+CLM000095,PAT77166,HUMANA,2102.47,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",2102.47
+CLM000096,PAT73469,HUMANA,1350.43,VALID,0,0,,,0.0
+CLM000097,PAT62198,AETNA,2233.69,VALID,0,0,,,0.0
+CLM000098,PAT93012,HUMANA,3077.45,VALID,0,0,,,0.0
+CLM000099,PAT53463,BCBS,2600.01,VALID,0,0,,,0.0
+CLM000100,PAT72411,AETNA,2416.85,VALID,0,0,,,0.0
+CLM000101,PAT68926,HUMANA,1870.78,VALID,0,0,,,0.0
+CLM000102,PAT70012,MEDICARE,646.91,VALID,0,0,,,0.0
+CLM000103,PAT65448,MEDICARE,749.72,VALID,0,0,,,0.0
+CLM000104,PAT60324,BCBS,2258.05,VALID,0,0,,,0.0
+CLM000105,PAT23423,HUMANA,2526.64,VALID,0,0,,,0.0
+CLM000106,PAT52421,CIGNA,2746.33,REJECTED,1,1,DX_002,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23).",2746.33
+CLM000107,PAT69243,CIGNA,2880.99,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 193 days old and will be denied.,2880.99
+CLM000108,PAT27117,CIGNA,1619.23,REJECTED,2,2,DX_002|PAYER_TF_001,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23). | CIGNA timely filing limit is 90 days. This claim is 296 days old and will be denied.",1619.23
+CLM000109,PAT20803,BCBS,2997.46,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,2997.46
+CLM000110,PAT60164,CIGNA,3982.3,VALID,0,0,,,0.0
+CLM000111,PAT42527,AETNA,1354.81,VALID,0,0,,,0.0
+CLM000112,PAT60703,CIGNA,4212.57,VALID,0,0,,,0.0
+CLM000113,PAT50620,MEDICARE,814.16,VALID,0,0,,,0.0
+CLM000114,PAT66948,AETNA,401.89,VALID,0,0,,,0.0
+CLM000115,PAT92251,MEDICARE,427.84,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.,427.84
+CLM000116,PAT42053,MEDICARE,161.17,VALID,0,0,,,0.0
+CLM000117,PAT45554,HUMANA,4133.97,VALID,0,0,,,0.0
+CLM000118,PAT81638,MEDICARE,4377.58,VALID,0,0,,,0.0
+CLM000119,PAT41217,CIGNA,602.18,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 272 days old and will be denied.,602.18
+CLM000120,PAT51288,AETNA,1179.96,REJECTED,1,1,DX_002,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23).",1179.96
+CLM000121,PAT38183,CIGNA,3744.78,VALID,0,0,,,0.0
+CLM000122,PAT58790,AETNA,718.61,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 206 days old and will be denied.,718.61
+CLM000123,PAT46042,AETNA,1689.65,VALID,0,0,,,0.0
+CLM000124,PAT52153,CIGNA,4120.15,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 258 days old and will be denied.,4120.15
+CLM000125,PAT33081,HUMANA,1693.4,VALID,0,0,,,0.0
+CLM000126,PAT27103,BCBS,1593.04,VALID,0,0,,,0.0
+CLM000127,PAT39260,MEDICARE,3166.99,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3166.99
+CLM000128,PAT93839,MEDICARE,1534.24,VALID,0,0,,,0.0
+CLM000129,PAT37483,CIGNA,2092.84,REJECTED,2,2,NPI_003|PAYER_TF_001,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits. | CIGNA timely filing limit is 90 days. This claim is 136 days old and will be denied.,2092.84
+CLM000130,PAT44226,BCBS,1432.85,FLAGGED,1,0,PAYER_SUB_001,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$,1432.85
+CLM000131,PAT84943,AETNA,567.23,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | AETNA timely filing limit is 180 days. This claim is 202 days old and will be denied.,567.23
+CLM000132,PAT15848,HUMANA,1756.9,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,1756.9
+CLM000133,PAT75811,CIGNA,493.45,VALID,0,0,,,0.0
+CLM000134,PAT62082,BCBS,528.57,VALID,0,0,,,0.0
+CLM000135,PAT28855,BCBS,899.07,VALID,0,0,,,0.0
+CLM000136,PAT73499,AETNA,2071.47,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 209 days old and will be denied.,2071.47
+CLM000137,PAT99282,HUMANA,2914.03,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,2914.03
+CLM000138,PAT72140,HUMANA,2382.77,VALID,0,0,,,0.0
+CLM000139,PAT49121,CIGNA,2592.34,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 145 days old and will be denied.,2592.34
+CLM000140,PAT86418,HUMANA,1910.01,VALID,0,0,,,0.0
+CLM000141,PAT65112,AETNA,1695.48,VALID,0,0,,,0.0
+CLM000142,PAT28772,MEDICARE,4033.88,VALID,0,0,,,0.0
+CLM000143,PAT26961,AETNA,2279.66,VALID,0,0,,,0.0
+CLM000144,PAT15992,MEDICARE,1481.6,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1481.6
+CLM000145,PAT37681,AETNA,3313.18,VALID,0,0,,,0.0
+CLM000146,PAT96832,BCBS,1459.86,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1459.86
+CLM000147,PAT97690,BCBS,4094.93,VALID,0,0,,,0.0
+CLM000148,PAT91501,CIGNA,1705.24,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 225 days old and will be denied.,1705.24
+CLM000149,PAT90127,MEDICARE,3101.01,VALID,0,0,,,0.0
+CLM000150,PAT84057,MEDICARE,3488.75,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,3488.75
+CLM000151,PAT74990,AETNA,2349.22,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | AETNA timely filing limit is 180 days. This claim is 241 days old and will be denied.,2349.22
+CLM000152,PAT89194,MEDICARE,150.74,VALID,0,0,,,0.0
+CLM000153,PAT22771,CIGNA,3264.22,VALID,0,0,,,0.0
+CLM000154,PAT16094,CIGNA,618.78,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 213 days old and will be denied.,618.78
+CLM000155,PAT89822,MEDICARE,3984.05,VALID,0,0,,,0.0
+CLM000156,PAT92913,CIGNA,3246.65,REJECTED,2,1,PAYER_TF_001|PAYER_SUB_001,CIGNA timely filing limit is 90 days. This claim is 284 days old and will be denied. | CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$,3246.65
+CLM000157,PAT23955,HUMANA,3666.13,VALID,0,0,,,0.0
+CLM000158,PAT97096,AETNA,2372.51,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2372.51
+CLM000159,PAT77350,BCBS,963.35,VALID,0,0,,,0.0
+CLM000160,PAT62876,AETNA,1959.3,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 275 days old and will be denied.,1959.3
+CLM000161,PAT60577,HUMANA,4134.31,VALID,0,0,,,0.0
+CLM000162,PAT23621,AETNA,3912.54,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 218 days old and will be denied.,3912.54
+CLM000163,PAT61052,HUMANA,2033.66,VALID,0,0,,,0.0
+CLM000164,PAT49066,MEDICARE,1433.16,VALID,0,0,,,0.0
+CLM000165,PAT28671,CIGNA,1071.06,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 263 days old and will be denied.,1071.06
+CLM000166,PAT23113,CIGNA,707.74,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 121 days old and will be denied.,707.74
+CLM000167,PAT68373,CIGNA,0.0,REJECTED,2,2,AMT_002|PAYER_TF_001,Billed amount '0.0' must be greater than zero. | CIGNA timely filing limit is 90 days. This claim is 237 days old and will be denied.,0.0
+CLM000168,PAT57948,MEDICARE,2203.65,VALID,0,0,,,0.0
+CLM000169,PAT28398,MEDICARE,3126.1,VALID,0,0,,,0.0
+CLM000170,PAT60868,MEDICARE,4098.61,VALID,0,0,,,0.0
+CLM000171,PAT87028,HUMANA,2993.49,VALID,0,0,,,0.0
+CLM000172,PAT53283,BCBS,3025.83,VALID,0,0,,,0.0
+CLM000173,PAT73133,BCBS,1092.18,VALID,0,0,,,0.0
+CLM000174,PAT75972,MEDICARE,2759.19,VALID,0,0,,,0.0
+CLM000175,PAT55943,HUMANA,3584.57,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,3584.57
+CLM000176,PAT44249,HUMANA,2984.36,VALID,0,0,,,0.0
+CLM000177,PAT23143,HUMANA,3556.53,VALID,0,0,,,0.0
+CLM000178,PAT47548,HUMANA,2820.75,VALID,0,0,,,0.0
+CLM000179,PAT63143,HUMANA,1686.11,VALID,0,0,,,0.0
+CLM000180,PAT77277,MEDICARE,1430.0,VALID,0,0,,,0.0
+CLM000181,PAT25239,MEDICARE,3899.8,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,3899.8
+CLM000182,PAT72463,CIGNA,480.73,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 92 days old and will be denied.,480.73
+CLM000183,PAT15539,HUMANA,2820.15,VALID,0,0,,,0.0
+CLM000184,PAT77922,AETNA,2138.8,VALID,0,0,,,0.0
+CLM000185,PAT99916,MEDICARE,720.46,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,720.46
+CLM000186,PAT79990,HUMANA,2323.25,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,2323.25
+CLM000187,PAT95179,MEDICARE,1015.47,VALID,0,0,,,0.0
+CLM000188,PAT65288,AETNA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000189,PAT23501,BCBS,1065.99,VALID,0,0,,,0.0
+CLM000190,PAT68306,MEDICARE,4216.63,VALID,0,0,,,0.0
+CLM000191,PAT11383,HUMANA,1280.16,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,1280.16
+CLM000192,PAT44469,HUMANA,3753.66,VALID,0,0,,,0.0
+CLM000193,PAT12900,AETNA,365.9,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 274 days old and will be denied.,365.9
+CLM000194,PAT60014,AETNA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000195,PAT97385,CIGNA,1014.45,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1014.45
+CLM000196,PAT24076,CIGNA,2953.9,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 275 days old and will be denied.,2953.9
+CLM000197,PAT88470,CIGNA,3335.95,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 141 days old and will be denied.,3335.95
+CLM000198,PAT90352,HUMANA,3480.94,VALID,0,0,,,0.0
+CLM000199,PAT37359,MEDICARE,3272.63,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3272.63
+CLM000200,PAT38298,BCBS,3779.89,VALID,0,0,,,0.0
+CLM000201,PAT58722,CIGNA,2542.85,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 167 days old and will be denied.,2542.85
+CLM000202,PAT12844,AETNA,1084.48,VALID,0,0,,,0.0
+CLM000203,PAT88018,MEDICARE,3714.89,VALID,0,0,,,0.0
+CLM000204,PAT17094,MEDICARE,4189.64,VALID,0,0,,,0.0
+CLM000205,PAT39109,MEDICARE,2652.36,VALID,0,0,,,0.0
+CLM000206,PAT83308,AETNA,3464.84,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | AETNA timely filing limit is 180 days. This claim is 247 days old and will be denied.,3464.84
+CLM000207,PAT91681,CIGNA,2830.56,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 227 days old and will be denied.,2830.56
+CLM000208,PAT43902,AETNA,1036.54,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 268 days old and will be denied.,1036.54
+CLM000209,PAT40299,BCBS,232.99,FLAGGED,1,0,PAYER_SUB_001,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$,232.99
+CLM000210,PAT13862,BCBS,2872.2,VALID,0,0,,,0.0
+CLM000211,PAT29025,MEDICARE,4106.6,VALID,0,0,,,0.0
+CLM000212,PAT68065,HUMANA,4331.2,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,4331.2
+CLM000213,PAT31467,HUMANA,2287.79,VALID,0,0,,,0.0
+CLM000214,PAT87831,HUMANA,2810.05,VALID,0,0,,,0.0
+CLM000215,PAT48590,CIGNA,0.0,REJECTED,2,2,AMT_002|PAYER_TF_001,Billed amount '0.0' must be greater than zero. | CIGNA timely filing limit is 90 days. This claim is 217 days old and will be denied.,0.0
+CLM000216,PAT21952,AETNA,3274.93,VALID,0,0,,,0.0
+CLM000217,PAT25408,HUMANA,1406.2,VALID,0,0,,,0.0
+CLM000218,PAT17217,AETNA,362.8,VALID,0,0,,,0.0
+CLM000219,PAT18509,BCBS,3449.22,VALID,0,0,,,0.0
+CLM000220,PAT74553,MEDICARE,3321.95,VALID,0,0,,,0.0
+CLM000221,PAT11480,CIGNA,1670.98,REJECTED,2,2,DX_002|PAYER_TF_001,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23). | CIGNA timely filing limit is 90 days. This claim is 109 days old and will be denied.",1670.98
+CLM000222,PAT64257,MEDICARE,4047.29,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",4047.29
+CLM000223,PAT31753,CIGNA,4428.74,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 274 days old and will be denied.,4428.74
+CLM000224,PAT76321,AETNA,4123.09,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 228 days old and will be denied.,4123.09
+CLM000225,PAT23513,CIGNA,2180.91,VALID,0,0,,,0.0
+CLM000226,PAT85246,CIGNA,765.77,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 146 days old and will be denied.,765.77
+CLM000227,PAT20295,AETNA,3251.11,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 274 days old and will be denied.,3251.11
+CLM000228,PAT56064,BCBS,434.34,VALID,0,0,,,0.0
+CLM000229,PAT84345,HUMANA,3561.77,VALID,0,0,,,0.0
+CLM000230,PAT86122,BCBS,543.82,VALID,0,0,,,0.0
+CLM000231,PAT57086,BCBS,153.67,VALID,0,0,,,0.0
+CLM000232,PAT21097,HUMANA,3011.98,VALID,0,0,,,0.0
+CLM000233,PAT84468,CIGNA,295.56,VALID,0,0,,,0.0
+CLM000234,PAT80127,CIGNA,2816.72,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 176 days old and will be denied.,2816.72
+CLM000235,PAT20074,HUMANA,508.92,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",508.92
+CLM000236,PAT60222,HUMANA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000237,PAT47852,MEDICARE,3935.71,VALID,0,0,,,0.0
+CLM000238,PAT70438,CIGNA,2996.39,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 201 days old and will be denied.,2996.39
+CLM000239,PAT88562,BCBS,397.44,VALID,0,0,,,0.0
+CLM000240,PAT33321,CIGNA,4306.88,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 136 days old and will be denied.,4306.88
+CLM000241,PAT44922,BCBS,4208.09,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,4208.09
+CLM000242,PAT20545,MEDICARE,3862.04,VALID,0,0,,,0.0
+CLM000243,PAT14679,HUMANA,3348.66,VALID,0,0,,,0.0
+CLM000244,PAT40537,MEDICARE,797.95,VALID,0,0,,,0.0
+CLM000245,PAT69793,CIGNA,3720.22,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3720.22
+CLM000246,PAT64415,BCBS,675.24,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,675.24
+CLM000247,PAT88154,AETNA,2805.84,VALID,0,0,,,0.0
+CLM000248,PAT97836,HUMANA,2314.19,VALID,0,0,,,0.0
+CLM000249,PAT40154,HUMANA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000250,PAT17818,CIGNA,703.37,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 292 days old and will be denied.,703.37
+CLM000251,PAT42329,CIGNA,213.09,REJECTED,2,2,NPI_003|PAYER_TF_001,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits. | CIGNA timely filing limit is 90 days. This claim is 220 days old and will be denied.,213.09
+CLM000252,PAT38574,BCBS,3165.25,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3165.25
+CLM000253,PAT85396,HUMANA,3425.06,VALID,0,0,,,0.0
+CLM000254,PAT86037,MEDICARE,643.98,VALID,0,0,,,0.0
+CLM000255,PAT98907,BCBS,2195.21,VALID,0,0,,,0.0
+CLM000256,PAT55442,MEDICARE,4202.99,VALID,0,0,,,0.0
+CLM000257,PAT81888,CIGNA,2264.75,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | CIGNA timely filing limit is 90 days. This claim is 272 days old and will be denied.,2264.75
+CLM000258,PAT15393,AETNA,851.46,VALID,0,0,,,0.0
+CLM000259,PAT72116,MEDICARE,1591.07,VALID,0,0,,,0.0
+CLM000260,PAT52777,AETNA,2089.98,VALID,0,0,,,0.0
+CLM000261,PAT11597,HUMANA,1757.89,VALID,0,0,,,0.0
+CLM000262,PAT21593,CIGNA,0.0,REJECTED,2,2,AMT_002|PAYER_TF_001,Billed amount '0.0' must be greater than zero. | CIGNA timely filing limit is 90 days. This claim is 193 days old and will be denied.,0.0
+CLM000263,PAT64677,HUMANA,690.17,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",690.17
+CLM000264,PAT45739,AETNA,1704.63,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1704.63
+CLM000265,PAT11690,MEDICARE,1679.59,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,1679.59
+CLM000266,PAT79742,MEDICARE,2818.41,VALID,0,0,,,0.0
+CLM000267,PAT13769,CIGNA,899.1,REJECTED,2,2,NPI_003|PAYER_TF_001,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits. | CIGNA timely filing limit is 90 days. This claim is 156 days old and will be denied.,899.1
+CLM000268,PAT18683,BCBS,4102.1,VALID,0,0,,,0.0
+CLM000269,PAT38051,MEDICARE,168.83,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,168.83
+CLM000270,PAT78121,CIGNA,687.73,VALID,0,0,,,0.0
+CLM000271,PAT98092,CIGNA,929.94,REJECTED,2,1,PAYER_TF_001|PAYER_SUB_001,CIGNA timely filing limit is 90 days. This claim is 252 days old and will be denied. | CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$,929.94
+CLM000272,PAT56674,MEDICARE,2732.38,VALID,0,0,,,0.0
+CLM000273,PAT18942,AETNA,279.3,VALID,0,0,,,0.0
+CLM000274,PAT60283,HUMANA,3978.55,VALID,0,0,,,0.0
+CLM000275,PAT74840,MEDICARE,392.46,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,392.46
+CLM000276,PAT55238,CIGNA,1805.49,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 220 days old and will be denied.,1805.49
+CLM000277,PAT59510,MEDICARE,246.73,VALID,0,0,,,0.0
+CLM000278,PAT75136,CIGNA,4367.01,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 104 days old and will be denied.,4367.01
+CLM000279,PAT96960,MEDICARE,3647.95,VALID,0,0,,,0.0
+CLM000280,PAT96613,AETNA,2659.27,VALID,0,0,,,0.0
+CLM000281,PAT88804,CIGNA,2960.29,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 132 days old and will be denied.,2960.29
+CLM000282,PAT21000,HUMANA,3552.72,VALID,0,0,,,0.0
+CLM000283,PAT53160,AETNA,2759.22,VALID,0,0,,,0.0
+CLM000284,PAT94593,CIGNA,3722.94,VALID,0,0,,,0.0
+CLM000285,PAT67520,AETNA,1443.79,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1443.79
+CLM000286,PAT92595,BCBS,2939.97,VALID,0,0,,,0.0
+CLM000287,PAT39423,HUMANA,3962.3,VALID,0,0,,,0.0
+CLM000288,PAT25533,HUMANA,3748.57,VALID,0,0,,,0.0
+CLM000289,PAT27459,HUMANA,522.96,VALID,0,0,,,0.0
+CLM000290,PAT15390,CIGNA,725.24,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 287 days old and will be denied.,725.24
+CLM000291,PAT77760,CIGNA,2816.25,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 136 days old and will be denied.,2816.25
+CLM000292,PAT83512,HUMANA,327.44,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,327.44
+CLM000293,PAT61664,CIGNA,262.94,VALID,0,0,,,0.0
+CLM000294,PAT19269,CIGNA,1555.79,VALID,0,0,,,0.0
+CLM000295,PAT68385,CIGNA,2380.04,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 251 days old and will be denied.,2380.04
+CLM000296,PAT49373,HUMANA,494.45,VALID,0,0,,,0.0
+CLM000297,PAT33534,BCBS,3371.25,VALID,0,0,,,0.0
+CLM000298,PAT91067,MEDICARE,3307.71,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,3307.71
+CLM000299,PAT92058,AETNA,2976.37,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 224 days old and will be denied.,2976.37
+CLM000300,PAT85846,HUMANA,4410.77,VALID,0,0,,,0.0
+CLM000301,PAT12727,CIGNA,2100.22,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 224 days old and will be denied.,2100.22
+CLM000302,PAT97432,CIGNA,3154.53,VALID,0,0,,,0.0
+CLM000303,PAT39372,MEDICARE,1136.1,VALID,0,0,,,0.0
+CLM000304,PAT83724,BCBS,4389.77,VALID,0,0,,,0.0
+CLM000305,PAT57270,BCBS,1307.17,VALID,0,0,,,0.0
+CLM000306,PAT92786,AETNA,4075.92,VALID,0,0,,,0.0
+CLM000307,PAT14845,AETNA,3982.24,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,3982.24
+CLM000308,PAT56461,CIGNA,1279.94,REJECTED,2,2,PROC_002|PAYER_TF_001,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format. | CIGNA timely filing limit is 90 days. This claim is 260 days old and will be denied.,1279.94
+CLM000309,PAT57352,CIGNA,2396.57,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 99 days old and will be denied.,2396.57
+CLM000310,PAT76294,HUMANA,3733.58,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,3733.58
+CLM000311,PAT48532,CIGNA,4460.94,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 156 days old and will be denied.,4460.94
+CLM000312,PAT28156,HUMANA,2217.24,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2217.24
+CLM000313,PAT94399,CIGNA,2590.54,VALID,0,0,,,0.0
+CLM000314,PAT74418,CIGNA,1897.82,VALID,0,0,,,0.0
+CLM000315,PAT28672,CIGNA,0.0,REJECTED,2,2,AMT_002|PAYER_TF_001,Billed amount '0.0' must be greater than zero. | CIGNA timely filing limit is 90 days. This claim is 164 days old and will be denied.,0.0
+CLM000316,PAT82706,MEDICARE,3086.67,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3086.67
+CLM000317,PAT82764,AETNA,2488.28,REJECTED,2,2,NPI_003|PAYER_TF_001,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits. | AETNA timely filing limit is 180 days. This claim is 217 days old and will be denied.,2488.28
+CLM000318,PAT46629,BCBS,3762.67,VALID,0,0,,,0.0
+CLM000319,PAT20636,HUMANA,3466.72,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,3466.72
+CLM000320,PAT40704,MEDICARE,2869.78,VALID,0,0,,,0.0
+CLM000321,PAT98103,AETNA,2550.27,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 290 days old and will be denied.,2550.27
+CLM000322,PAT71156,HUMANA,1342.05,VALID,0,0,,,0.0
+CLM000323,PAT87664,BCBS,2237.85,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2237.85
+CLM000324,PAT23346,MEDICARE,2873.91,VALID,0,0,,,0.0
+CLM000325,PAT54514,HUMANA,3977.73,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,3977.73
+CLM000326,PAT50788,MEDICARE,2045.94,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,2045.94
+CLM000327,PAT55064,MEDICARE,3885.35,VALID,0,0,,,0.0
+CLM000328,PAT31270,MEDICARE,1453.4,VALID,0,0,,,0.0
+CLM000329,PAT36911,CIGNA,3661.63,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 193 days old and will be denied.,3661.63
+CLM000330,PAT33078,AETNA,926.66,VALID,0,0,,,0.0
+CLM000331,PAT80184,AETNA,4156.41,VALID,0,0,,,0.0
+CLM000332,PAT72096,MEDICARE,3171.12,VALID,0,0,,,0.0
+CLM000333,PAT43361,AETNA,4219.42,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 192 days old and will be denied.,4219.42
+CLM000334,PAT81650,CIGNA,3815.32,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 263 days old and will be denied.,3815.32
+CLM000335,PAT95892,HUMANA,4264.3,VALID,0,0,,,0.0
+CLM000336,PAT85695,MEDICARE,280.95,VALID,0,0,,,0.0
+CLM000337,PAT30144,MEDICARE,3566.31,VALID,0,0,,,0.0
+CLM000338,PAT98458,CIGNA,555.6,VALID,0,0,,,0.0
+CLM000339,PAT19012,AETNA,2483.57,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 245 days old and will be denied.,2483.57
+CLM000340,PAT70646,MEDICARE,3974.69,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3974.69
+CLM000341,PAT60418,MEDICARE,3339.61,VALID,0,0,,,0.0
+CLM000342,PAT82459,AETNA,4103.0,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 211 days old and will be denied.,4103.0
+CLM000343,PAT20819,HUMANA,2258.7,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2258.7
+CLM000344,PAT93203,MEDICARE,1090.32,VALID,0,0,,,0.0
+CLM000345,PAT13662,AETNA,547.53,REJECTED,2,2,PROC_002|PAYER_TF_001,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format. | AETNA timely filing limit is 180 days. This claim is 216 days old and will be denied.,547.53
+CLM000346,PAT11965,BCBS,1701.11,VALID,0,0,,,0.0
+CLM000347,PAT18849,CIGNA,4404.39,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 247 days old and will be denied.,4404.39
+CLM000348,PAT94153,AETNA,809.77,VALID,0,0,,,0.0
+CLM000349,PAT67981,HUMANA,2418.4,VALID,0,0,,,0.0
+CLM000350,PAT93309,CIGNA,1391.29,REJECTED,2,2,DX_002|PAYER_TF_001,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23). | CIGNA timely filing limit is 90 days. This claim is 230 days old and will be denied.",1391.29
+CLM000351,PAT50088,AETNA,1269.22,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 238 days old and will be denied.,1269.22
+CLM000352,PAT60439,BCBS,4467.26,VALID,0,0,,,0.0
+CLM000353,PAT96848,AETNA,1256.15,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | AETNA timely filing limit is 180 days. This claim is 297 days old and will be denied.,1256.15
+CLM000354,PAT28705,MEDICARE,3528.61,VALID,0,0,,,0.0
+CLM000355,PAT34431,HUMANA,892.26,FLAGGED,1,0,PAYER_SUB_001,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$,892.26
+CLM000356,PAT72638,CIGNA,279.05,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 121 days old and will be denied.,279.05
+CLM000357,PAT56665,HUMANA,1796.2,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1796.2
+CLM000358,PAT98857,CIGNA,3949.44,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 167 days old and will be denied.,3949.44
+CLM000359,PAT71184,BCBS,1460.87,VALID,0,0,,,0.0
+CLM000360,PAT39334,BCBS,3610.6,VALID,0,0,,,0.0
+CLM000361,PAT34885,BCBS,1501.98,VALID,0,0,,,0.0
+CLM000362,PAT72689,BCBS,1339.52,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1339.52
+CLM000363,PAT81828,CIGNA,1378.28,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 100 days old and will be denied.,1378.28
+CLM000364,PAT59355,MEDICARE,593.47,VALID,0,0,,,0.0
+CLM000365,PAT41569,HUMANA,1215.75,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1215.75
+CLM000366,PAT45877,MEDICARE,4444.97,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,4444.97
+CLM000367,PAT79479,BCBS,1863.01,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1863.01
+CLM000368,PAT32492,CIGNA,1731.48,REJECTED,2,2,DX_002|PAYER_TF_001,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23). | CIGNA timely filing limit is 90 days. This claim is 279 days old and will be denied.",1731.48
+CLM000369,PAT87566,AETNA,2769.33,VALID,0,0,,,0.0
+CLM000370,PAT30118,MEDICARE,2781.51,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2781.51
+CLM000371,PAT39591,CIGNA,3534.61,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3534.61
+CLM000372,PAT33681,CIGNA,4267.32,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 200 days old and will be denied.,4267.32
+CLM000373,PAT71428,AETNA,2059.48,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 182 days old and will be denied.,2059.48
+CLM000374,PAT98740,BCBS,4335.42,VALID,0,0,,,0.0
+CLM000375,PAT65407,AETNA,2384.53,VALID,0,0,,,0.0
+CLM000376,PAT53063,BCBS,1697.49,VALID,0,0,,,0.0
+CLM000377,PAT66880,HUMANA,853.98,VALID,0,0,,,0.0
+CLM000378,PAT12772,HUMANA,721.67,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,721.67
+CLM000379,PAT97337,CIGNA,4475.02,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 127 days old and will be denied.,4475.02
+CLM000380,PAT93009,HUMANA,1921.74,VALID,0,0,,,0.0
+CLM000381,PAT74393,BCBS,2024.45,VALID,0,0,,,0.0
+CLM000382,PAT91134,BCBS,475.73,VALID,0,0,,,0.0
+CLM000383,PAT17968,AETNA,0.0,REJECTED,2,2,AMT_002|PAYER_TF_001,Billed amount '0.0' must be greater than zero. | AETNA timely filing limit is 180 days. This claim is 290 days old and will be denied.,0.0
+CLM000384,PAT82371,AETNA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000385,PAT52550,AETNA,1926.29,VALID,0,0,,,0.0
+CLM000386,PAT66872,HUMANA,827.04,VALID,0,0,,,0.0
+CLM000387,PAT27995,HUMANA,586.02,VALID,0,0,,,0.0
+CLM000388,PAT53483,HUMANA,3697.27,VALID,0,0,,,0.0
+CLM000389,PAT39428,BCBS,2289.42,VALID,0,0,,,0.0
+CLM000390,PAT68549,AETNA,1543.11,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 200 days old and will be denied.,1543.11
+CLM000391,PAT20959,MEDICARE,3723.11,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",3723.11
+CLM000392,PAT28264,BCBS,4114.42,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",4114.42
+CLM000393,PAT29623,BCBS,204.28,VALID,0,0,,,0.0
+CLM000394,PAT45628,AETNA,1992.97,VALID,0,0,,,0.0
+CLM000395,PAT57540,CIGNA,621.54,VALID,0,0,,,0.0
+CLM000396,PAT47015,CIGNA,186.88,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 183 days old and will be denied.,186.88
+CLM000397,PAT40352,BCBS,4000.64,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,4000.64
+CLM000398,PAT75393,CIGNA,2530.04,VALID,0,0,,,0.0
+CLM000399,PAT67780,MEDICARE,4139.56,VALID,0,0,,,0.0
+CLM000400,PAT11041,AETNA,3193.89,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 288 days old and will be denied.,3193.89
+CLM000401,PAT24984,HUMANA,1074.96,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",1074.96
+CLM000402,PAT65013,HUMANA,505.43,VALID,0,0,,,0.0
+CLM000403,PAT20198,MEDICARE,3556.36,VALID,0,0,,,0.0
+CLM000404,PAT26478,MEDICARE,3291.94,VALID,0,0,,,0.0
+CLM000405,PAT57683,MEDICARE,4304.7,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,4304.7
+CLM000406,PAT87973,HUMANA,1773.08,VALID,0,0,,,0.0
+CLM000407,PAT97518,MEDICARE,2678.37,VALID,0,0,,,0.0
+CLM000408,PAT39351,HUMANA,183.08,VALID,0,0,,,0.0
+CLM000409,PAT35252,HUMANA,1201.97,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",1201.97
+CLM000410,PAT67333,AETNA,555.66,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,555.66
+CLM000411,PAT93674,BCBS,4217.15,VALID,0,0,,,0.0
+CLM000412,PAT25362,AETNA,3019.55,VALID,0,0,,,0.0
+CLM000413,PAT36114,AETNA,1314.02,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 247 days old and will be denied.,1314.02
+CLM000414,PAT51779,HUMANA,2744.03,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2744.03
+CLM000415,PAT56890,CIGNA,2017.83,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 96 days old and will be denied.,2017.83
+CLM000416,PAT99408,BCBS,2646.68,VALID,0,0,,,0.0
+CLM000417,PAT49452,BCBS,2194.04,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2194.04
+CLM000418,PAT10647,CIGNA,3700.24,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | CIGNA timely filing limit is 90 days. This claim is 276 days old and will be denied.,3700.24
+CLM000419,PAT96673,MEDICARE,1196.28,VALID,0,0,,,0.0
+CLM000420,PAT37849,BCBS,4377.18,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,4377.18
+CLM000421,PAT85660,HUMANA,864.25,VALID,0,0,,,0.0
+CLM000422,PAT65389,CIGNA,575.49,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.,575.49
+CLM000423,PAT61368,MEDICARE,3192.88,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3192.88
+CLM000424,PAT41276,MEDICARE,2223.9,VALID,0,0,,,0.0
+CLM000425,PAT87857,BCBS,892.65,VALID,0,0,,,0.0
+CLM000426,PAT97023,CIGNA,3239.18,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 266 days old and will be denied.,3239.18
+CLM000427,PAT68886,CIGNA,3965.58,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 279 days old and will be denied.,3965.58
+CLM000428,PAT78575,AETNA,2178.48,FLAGGED,1,0,PAYER_SUB_001,AETNA subscriber ID 'nan' does not match expected format. Pattern: ^[0-9]{9}$,2178.48
+CLM000429,PAT30321,MEDICARE,3044.17,VALID,0,0,,,0.0
+CLM000430,PAT44243,HUMANA,1988.15,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1988.15
+CLM000431,PAT76036,MEDICARE,2072.27,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",2072.27
+CLM000432,PAT26682,AETNA,2674.4,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 192 days old and will be denied.,2674.4
+CLM000433,PAT98396,BCBS,678.28,VALID,0,0,,,0.0
+CLM000434,PAT25966,MEDICARE,2080.6,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2080.6
+CLM000435,PAT32383,AETNA,3710.69,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3710.69
+CLM000436,PAT28258,MEDICARE,2083.49,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2083.49
+CLM000437,PAT54471,AETNA,1680.62,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 289 days old and will be denied.,1680.62
+CLM000438,PAT75461,AETNA,1157.91,VALID,0,0,,,0.0
+CLM000439,PAT59496,CIGNA,618.33,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 231 days old and will be denied.,618.33
+CLM000440,PAT54657,HUMANA,2622.08,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2622.08
+CLM000441,PAT47997,MEDICARE,1589.5,VALID,0,0,,,0.0
+CLM000442,PAT86385,BCBS,2524.85,VALID,0,0,,,0.0
+CLM000443,PAT26969,BCBS,4010.71,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",4010.71
+CLM000444,PAT56109,BCBS,4052.59,VALID,0,0,,,0.0
+CLM000445,PAT96190,AETNA,2786.64,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 246 days old and will be denied.,2786.64
+CLM000446,PAT36680,MEDICARE,2265.0,VALID,0,0,,,0.0
+CLM000447,PAT75392,HUMANA,4295.75,VALID,0,0,,,0.0
+CLM000448,PAT44410,BCBS,4108.73,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",4108.73
+CLM000449,PAT21211,CIGNA,3628.21,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 141 days old and will be denied.,3628.21
+CLM000450,PAT72941,HUMANA,310.97,VALID,0,0,,,0.0
+CLM000451,PAT86007,AETNA,3127.32,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 226 days old and will be denied.,3127.32
+CLM000452,PAT47104,HUMANA,460.56,VALID,0,0,,,0.0
+CLM000453,PAT38163,MEDICARE,3558.08,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,3558.08
+CLM000454,PAT96402,MEDICARE,3622.19,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,3622.19
+CLM000455,PAT41594,CIGNA,3404.62,FLAGGED,1,0,PAYER_SUB_001,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$,3404.62
+CLM000456,PAT65184,CIGNA,663.14,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 210 days old and will be denied.,663.14
+CLM000457,PAT56447,MEDICARE,4146.01,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,4146.01
+CLM000458,PAT92684,CIGNA,4282.15,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 210 days old and will be denied.,4282.15
+CLM000459,PAT78838,CIGNA,360.05,REJECTED,2,1,PAYER_TF_001|PAYER_SUB_001,CIGNA timely filing limit is 90 days. This claim is 266 days old and will be denied. | CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$,360.05
+CLM000460,PAT47811,HUMANA,1122.81,VALID,0,0,,,0.0
+CLM000461,PAT24367,AETNA,3765.01,VALID,0,0,,,0.0
+CLM000462,PAT51618,BCBS,2035.19,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2035.19
+CLM000463,PAT15087,MEDICARE,2808.79,VALID,0,0,,,0.0
+CLM000464,PAT73040,HUMANA,2750.61,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2750.61
+CLM000465,PAT17969,CIGNA,2357.57,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 210 days old and will be denied.,2357.57
+CLM000466,PAT12767,AETNA,2781.58,VALID,0,0,,,0.0
+CLM000467,PAT73556,MEDICARE,595.97,VALID,0,0,,,0.0
+CLM000468,PAT21130,HUMANA,720.69,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,720.69
+CLM000469,PAT66299,MEDICARE,2200.59,VALID,0,0,,,0.0
+CLM000470,PAT69279,CIGNA,3467.75,VALID,0,0,,,0.0
+CLM000471,PAT74673,MEDICARE,3458.53,VALID,0,0,,,0.0
+CLM000472,PAT95460,HUMANA,2523.31,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2523.31
+CLM000473,PAT64807,MEDICARE,2269.29,VALID,0,0,,,0.0
+CLM000474,PAT90478,AETNA,1412.36,VALID,0,0,,,0.0
+CLM000475,PAT18009,MEDICARE,2144.88,VALID,0,0,,,0.0
+CLM000476,PAT58139,HUMANA,2692.44,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,2692.44
+CLM000477,PAT21971,BCBS,3557.64,VALID,0,0,,,0.0
+CLM000478,PAT83464,CIGNA,3244.36,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 224 days old and will be denied.,3244.36
+CLM000479,PAT53050,AETNA,174.42,VALID,0,0,,,0.0
+CLM000480,PAT58435,MEDICARE,3662.32,VALID,0,0,,,0.0
+CLM000481,PAT95865,CIGNA,4427.8,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 100 days old and will be denied.,4427.8
+CLM000482,PAT63641,MEDICARE,1014.27,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1014.27
+CLM000483,PAT34334,BCBS,943.88,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,943.88
+CLM000484,PAT43994,AETNA,920.44,VALID,0,0,,,0.0
+CLM000485,PAT21895,MEDICARE,2549.51,VALID,0,0,,,0.0
+CLM000486,PAT52253,CIGNA,2602.4,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,2602.4
+CLM000487,PAT98939,CIGNA,2764.1,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 248 days old and will be denied.,2764.1
+CLM000488,PAT17051,AETNA,715.03,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",715.03
+CLM000489,PAT37851,HUMANA,2541.76,VALID,0,0,,,0.0
+CLM000490,PAT10208,CIGNA,1725.92,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | CIGNA timely filing limit is 90 days. This claim is 257 days old and will be denied.,1725.92
+CLM000491,PAT20831,MEDICARE,3778.91,VALID,0,0,,,0.0
+CLM000492,PAT93115,BCBS,1467.85,VALID,0,0,,,0.0
+CLM000493,PAT74175,HUMANA,1375.46,VALID,0,0,,,0.0
+CLM000494,PAT22395,AETNA,912.27,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 274 days old and will be denied.,912.27
+CLM000495,PAT65381,BCBS,1619.31,VALID,0,0,,,0.0
+CLM000496,PAT98894,MEDICARE,1884.22,VALID,0,0,,,0.0
+CLM000497,PAT12368,CIGNA,572.59,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 116 days old and will be denied.,572.59
+CLM000498,PAT96599,HUMANA,1262.26,VALID,0,0,,,0.0
+CLM000499,PAT80463,HUMANA,4455.11,VALID,0,0,,,0.0
+CLM000500,PAT61402,CIGNA,2335.03,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.,2335.03
+CLM000501,PAT88586,MEDICARE,2846.65,VALID,0,0,,,0.0
+CLM000502,PAT70000,MEDICARE,3905.96,VALID,0,0,,,0.0
+CLM000503,PAT75564,AETNA,3615.88,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 237 days old and will be denied.,3615.88
+CLM000504,PAT48399,BCBS,2057.57,VALID,0,0,,,0.0
+CLM000505,PAT54884,HUMANA,3423.39,VALID,0,0,,,0.0
+CLM000506,PAT60361,AETNA,787.39,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,787.39
+CLM000507,PAT59790,MEDICARE,2246.93,VALID,0,0,,,0.0
+CLM000508,PAT78697,MEDICARE,4120.26,VALID,0,0,,,0.0
+CLM000509,PAT42502,BCBS,2092.85,VALID,0,0,,,0.0
+CLM000510,PAT35745,BCBS,1537.03,VALID,0,0,,,0.0
+CLM000511,PAT42639,CIGNA,1299.27,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 273 days old and will be denied.,1299.27
+CLM000512,PAT24249,MEDICARE,3728.13,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",3728.13
+CLM000513,PAT52687,AETNA,3857.75,VALID,0,0,,,0.0
+CLM000514,PAT69885,CIGNA,2959.2,VALID,0,0,,,0.0
+CLM000515,PAT96431,MEDICARE,2193.94,VALID,0,0,,,0.0
+CLM000516,PAT19697,CIGNA,632.98,VALID,0,0,,,0.0
+CLM000517,PAT34135,HUMANA,3400.64,VALID,0,0,,,0.0
+CLM000518,PAT80622,MEDICARE,3947.9,VALID,0,0,,,0.0
+CLM000519,PAT19579,MEDICARE,4162.86,VALID,0,0,,,0.0
+CLM000520,PAT12473,BCBS,2863.05,VALID,0,0,,,0.0
+CLM000521,PAT40160,BCBS,1574.46,VALID,0,0,,,0.0
+CLM000522,PAT25951,MEDICARE,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000523,PAT10951,BCBS,4260.3,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",4260.3
+CLM000524,PAT96632,BCBS,416.14,VALID,0,0,,,0.0
+CLM000525,PAT80710,AETNA,4124.06,VALID,0,0,,,0.0
+CLM000526,PAT72624,CIGNA,4312.54,VALID,0,0,,,0.0
+CLM000527,PAT52984,CIGNA,3455.54,VALID,0,0,,,0.0
+CLM000528,PAT63170,CIGNA,966.7,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 296 days old and will be denied.,966.7
+CLM000529,PAT26544,HUMANA,2943.97,VALID,0,0,,,0.0
+CLM000530,PAT78818,AETNA,2598.54,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 272 days old and will be denied.,2598.54
+CLM000531,PAT82844,CIGNA,151.54,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 129 days old and will be denied.,151.54
+CLM000532,PAT86798,AETNA,4032.98,VALID,0,0,,,0.0
+CLM000533,PAT65824,CIGNA,640.84,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 239 days old and will be denied.,640.84
+CLM000534,PAT56748,MEDICARE,1580.41,VALID,0,0,,,0.0
+CLM000535,PAT97498,MEDICARE,1784.83,VALID,0,0,,,0.0
+CLM000536,PAT55521,HUMANA,3274.56,VALID,0,0,,,0.0
+CLM000537,PAT46258,CIGNA,4385.07,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 128 days old and will be denied.,4385.07
+CLM000538,PAT91500,BCBS,2931.62,VALID,0,0,,,0.0
+CLM000539,PAT79838,CIGNA,784.08,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 175 days old and will be denied.,784.08
+CLM000540,PAT67718,AETNA,1217.28,VALID,0,0,,,0.0
+CLM000541,PAT20097,AETNA,1542.67,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 183 days old and will be denied.,1542.67
+CLM000542,PAT75160,BCBS,2152.04,VALID,0,0,,,0.0
+CLM000543,PAT76578,CIGNA,1587.82,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 292 days old and will be denied.,1587.82
+CLM000544,PAT21679,HUMANA,3319.7,VALID,0,0,,,0.0
+CLM000545,PAT89450,BCBS,2428.82,VALID,0,0,,,0.0
+CLM000546,PAT76496,HUMANA,3222.7,VALID,0,0,,,0.0
+CLM000547,PAT18580,HUMANA,4256.45,VALID,0,0,,,0.0
+CLM000548,PAT68707,AETNA,1379.14,VALID,0,0,,,0.0
+CLM000549,PAT49707,BCBS,2474.17,VALID,0,0,,,0.0
+CLM000550,PAT41508,BCBS,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000551,PAT15478,BCBS,2875.44,VALID,0,0,,,0.0
+CLM000552,PAT26661,MEDICARE,3832.08,VALID,0,0,,,0.0
+CLM000553,PAT88250,HUMANA,3361.81,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3361.81
+CLM000554,PAT13317,AETNA,1611.12,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 225 days old and will be denied.,1611.12
+CLM000555,PAT92350,MEDICARE,670.44,VALID,0,0,,,0.0
+CLM000556,PAT72800,MEDICARE,1237.68,VALID,0,0,,,0.0
+CLM000557,PAT15577,HUMANA,3653.71,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,3653.71
+CLM000558,PAT70735,AETNA,2622.48,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,2622.48
+CLM000559,PAT99211,MEDICARE,3051.42,VALID,0,0,,,0.0
+CLM000560,PAT98629,MEDICARE,2458.06,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.,2458.06
+CLM000561,PAT86473,BCBS,1728.79,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,1728.79
+CLM000562,PAT67794,BCBS,2699.86,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2699.86
+CLM000563,PAT57869,MEDICARE,1967.16,VALID,0,0,,,0.0
+CLM000564,PAT96074,HUMANA,1618.2,VALID,0,0,,,0.0
+CLM000565,PAT35284,CIGNA,3278.16,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 283 days old and will be denied.,3278.16
+CLM000566,PAT30479,CIGNA,3935.19,VALID,0,0,,,0.0
+CLM000567,PAT74920,MEDICARE,987.98,REJECTED,1,1,DX_002,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23).",987.98
+CLM000568,PAT19932,MEDICARE,4381.35,VALID,0,0,,,0.0
+CLM000569,PAT10915,CIGNA,3349.18,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 272 days old and will be denied.,3349.18
+CLM000570,PAT58554,CIGNA,2110.92,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 246 days old and will be denied.,2110.92
+CLM000571,PAT92862,AETNA,3578.95,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 196 days old and will be denied.,3578.95
+CLM000572,PAT73876,HUMANA,2032.92,FLAGGED,1,0,PAYER_SUB_001,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$,2032.92
+CLM000573,PAT58439,CIGNA,3660.99,VALID,0,0,,,0.0
+CLM000574,PAT74040,MEDICARE,2800.83,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2800.83
+CLM000575,PAT28754,HUMANA,3531.83,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,3531.83
+CLM000576,PAT49082,HUMANA,1990.01,FLAGGED,1,0,PAYER_SUB_001,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$,1990.01
+CLM000577,PAT26241,MEDICARE,709.13,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,709.13
+CLM000578,PAT94360,MEDICARE,3786.92,REJECTED,1,1,DX_002,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23).",3786.92
+CLM000579,PAT22040,AETNA,4239.53,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,4239.53
+CLM000580,PAT38704,AETNA,2232.32,VALID,0,0,,,0.0
+CLM000581,PAT62059,MEDICARE,4058.82,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,4058.82
+CLM000582,PAT69198,CIGNA,1857.95,REJECTED,2,2,NPI_003|PAYER_TF_001,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits. | CIGNA timely filing limit is 90 days. This claim is 147 days old and will be denied.,1857.95
+CLM000583,PAT38417,AETNA,2615.78,VALID,0,0,,,0.0
+CLM000584,PAT45944,MEDICARE,367.62,VALID,0,0,,,0.0
+CLM000585,PAT48989,BCBS,1367.91,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1367.91
+CLM000586,PAT98869,AETNA,1087.32,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | AETNA timely filing limit is 180 days. This claim is 204 days old and will be denied.,1087.32
+CLM000587,PAT83261,BCBS,3949.82,VALID,0,0,,,0.0
+CLM000588,PAT21330,HUMANA,1717.43,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1717.43
+CLM000589,PAT81302,HUMANA,3981.15,VALID,0,0,,,0.0
+CLM000590,PAT30408,BCBS,1132.29,VALID,0,0,,,0.0
+CLM000591,PAT96715,BCBS,1985.34,VALID,0,0,,,0.0
+CLM000592,PAT21380,BCBS,1802.86,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1802.86
+CLM000593,PAT60879,AETNA,2164.83,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 290 days old and will be denied.,2164.83
+CLM000594,PAT74664,AETNA,1629.31,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 299 days old and will be denied.,1629.31
+CLM000595,PAT72210,BCBS,529.51,VALID,0,0,,,0.0
+CLM000596,PAT78755,MEDICARE,3578.18,VALID,0,0,,,0.0
+CLM000597,PAT93020,BCBS,900.02,VALID,0,0,,,0.0
+CLM000598,PAT26688,CIGNA,1849.88,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 116 days old and will be denied.,1849.88
+CLM000599,PAT49779,HUMANA,1371.63,VALID,0,0,,,0.0
+CLM000600,PAT39863,CIGNA,3955.17,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 263 days old and will be denied.,3955.17
+CLM000601,PAT25363,HUMANA,2680.61,VALID,0,0,,,0.0
+CLM000602,PAT43398,HUMANA,164.21,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,164.21
+CLM000603,PAT26701,BCBS,2535.93,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,2535.93
+CLM000604,PAT21950,MEDICARE,225.87,VALID,0,0,,,0.0
+CLM000605,PAT67041,BCBS,1188.65,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,1188.65
+CLM000606,PAT32070,AETNA,3210.04,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 194 days old and will be denied.,3210.04
+CLM000607,PAT67325,HUMANA,4104.97,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,4104.97
+CLM000608,PAT69388,BCBS,2434.85,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2434.85
+CLM000609,PAT79986,BCBS,1320.34,FLAGGED,1,0,PAYER_SUB_001,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$,1320.34
+CLM000610,PAT42534,AETNA,2129.01,VALID,0,0,,,0.0
+CLM000611,PAT14773,MEDICARE,3881.98,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,3881.98
+CLM000612,PAT68974,BCBS,1087.73,VALID,0,0,,,0.0
+CLM000613,PAT72843,MEDICARE,2549.49,VALID,0,0,,,0.0
+CLM000614,PAT62876,MEDICARE,1765.01,VALID,0,0,,,0.0
+CLM000615,PAT84232,MEDICARE,307.28,VALID,0,0,,,0.0
+CLM000616,PAT15768,CIGNA,1865.64,VALID,0,0,,,0.0
+CLM000617,PAT54923,HUMANA,646.93,VALID,0,0,,,0.0
+CLM000618,PAT43769,HUMANA,373.1,VALID,0,0,,,0.0
+CLM000619,PAT30191,BCBS,2044.96,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",2044.96
+CLM000620,PAT16731,HUMANA,4050.13,VALID,0,0,,,0.0
+CLM000621,PAT24095,AETNA,4052.19,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 252 days old and will be denied.,4052.19
+CLM000622,PAT50160,HUMANA,1710.57,VALID,0,0,,,0.0
+CLM000623,PAT94451,HUMANA,2043.71,VALID,0,0,,,0.0
+CLM000624,PAT10975,MEDICARE,3926.38,VALID,0,0,,,0.0
+CLM000625,PAT90593,BCBS,2897.19,VALID,0,0,,,0.0
+CLM000626,PAT72195,HUMANA,2713.54,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2713.54
+CLM000627,PAT80157,BCBS,4320.07,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,4320.07
+CLM000628,PAT43841,HUMANA,240.01,VALID,0,0,,,0.0
+CLM000629,PAT25917,BCBS,3477.32,VALID,0,0,,,0.0
+CLM000630,PAT23575,CIGNA,3862.75,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 222 days old and will be denied.,3862.75
+CLM000631,PAT10974,CIGNA,2971.92,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 213 days old and will be denied.,2971.92
+CLM000632,PAT43853,BCBS,4234.86,VALID,0,0,,,0.0
+CLM000633,PAT50827,BCBS,1157.11,VALID,0,0,,,0.0
+CLM000634,PAT63213,BCBS,2191.12,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,2191.12
+CLM000635,PAT35227,HUMANA,1067.88,VALID,0,0,,,0.0
+CLM000636,PAT27360,BCBS,4357.21,VALID,0,0,,,0.0
+CLM000637,PAT93237,CIGNA,2078.84,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | CIGNA timely filing limit is 90 days. This claim is 104 days old and will be denied.,2078.84
+CLM000638,PAT33207,CIGNA,762.04,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.,762.04
+CLM000639,PAT24394,MEDICARE,2367.19,VALID,0,0,,,0.0
+CLM000640,PAT42020,AETNA,4059.67,VALID,0,0,,,0.0
+CLM000641,PAT97796,MEDICARE,1017.68,VALID,0,0,,,0.0
+CLM000642,PAT39829,AETNA,2466.31,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | AETNA timely filing limit is 180 days. This claim is 253 days old and will be denied.,2466.31
+CLM000643,PAT37405,CIGNA,2947.13,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | CIGNA timely filing limit is 90 days. This claim is 231 days old and will be denied.,2947.13
+CLM000644,PAT46394,MEDICARE,2685.52,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2685.52
+CLM000645,PAT33513,AETNA,1168.86,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,1168.86
+CLM000646,PAT37759,HUMANA,622.08,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,622.08
+CLM000647,PAT89466,HUMANA,1364.41,VALID,0,0,,,0.0
+CLM000648,PAT16652,AETNA,3625.4,VALID,0,0,,,0.0
+CLM000649,PAT20506,HUMANA,3286.0,VALID,0,0,,,0.0
+CLM000650,PAT94875,BCBS,2059.56,VALID,0,0,,,0.0
+CLM000651,PAT51171,MEDICARE,2854.2,VALID,0,0,,,0.0
+CLM000652,PAT46055,CIGNA,535.8,REJECTED,2,2,PROC_002|PAYER_TF_001,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format. | CIGNA timely filing limit is 90 days. This claim is 265 days old and will be denied.,535.8
+CLM000653,PAT70296,MEDICARE,3873.71,VALID,0,0,,,0.0
+CLM000654,PAT10651,BCBS,4022.39,VALID,0,0,,,0.0
+CLM000655,PAT27106,AETNA,240.09,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 215 days old and will be denied.,240.09
+CLM000656,PAT97643,AETNA,1428.17,VALID,0,0,,,0.0
+CLM000657,PAT14920,BCBS,3080.5,VALID,0,0,,,0.0
+CLM000658,PAT92689,AETNA,1198.77,VALID,0,0,,,0.0
+CLM000659,PAT86820,AETNA,3718.52,VALID,0,0,,,0.0
+CLM000660,PAT50793,AETNA,4003.6,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,4003.6
+CLM000661,PAT64823,HUMANA,1346.34,VALID,0,0,,,0.0
+CLM000662,PAT15525,HUMANA,3544.33,VALID,0,0,,,0.0
+CLM000663,PAT24257,MEDICARE,947.81,VALID,0,0,,,0.0
+CLM000664,PAT68645,MEDICARE,171.57,VALID,0,0,,,0.0
+CLM000665,PAT69183,BCBS,382.29,VALID,0,0,,,0.0
+CLM000666,PAT48738,HUMANA,540.0,VALID,0,0,,,0.0
+CLM000667,PAT63453,MEDICARE,4328.73,VALID,0,0,,,0.0
+CLM000668,PAT52700,AETNA,2411.97,VALID,0,0,,,0.0
+CLM000669,PAT66904,CIGNA,2518.58,VALID,0,0,,,0.0
+CLM000670,PAT76719,AETNA,1196.61,VALID,0,0,,,0.0
+CLM000671,PAT59177,BCBS,358.44,FLAGGED,1,0,PAYER_SUB_001,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$,358.44
+CLM000672,PAT28314,AETNA,403.09,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 230 days old and will be denied.,403.09
+CLM000673,PAT36563,BCBS,4370.79,VALID,0,0,,,0.0
+CLM000674,PAT55215,HUMANA,2306.5,VALID,0,0,,,0.0
+CLM000675,PAT71656,CIGNA,3769.2,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 204 days old and will be denied.,3769.2
+CLM000676,PAT40653,HUMANA,3562.12,VALID,0,0,,,0.0
+CLM000677,PAT40926,HUMANA,3894.93,VALID,0,0,,,0.0
+CLM000678,PAT84636,BCBS,3137.35,VALID,0,0,,,0.0
+CLM000679,PAT96810,BCBS,4288.59,VALID,0,0,,,0.0
+CLM000680,PAT68665,AETNA,4044.1,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 206 days old and will be denied.,4044.1
+CLM000681,PAT51958,AETNA,3791.15,VALID,0,0,,,0.0
+CLM000682,PAT98212,HUMANA,2625.99,VALID,0,0,,,0.0
+CLM000683,PAT39123,MEDICARE,3833.33,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3833.33
+CLM000684,PAT32525,CIGNA,1842.48,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 295 days old and will be denied.,1842.48
+CLM000685,PAT44302,HUMANA,3512.56,VALID,0,0,,,0.0
+CLM000686,PAT52630,AETNA,1866.21,VALID,0,0,,,0.0
+CLM000687,PAT14612,BCBS,1383.13,VALID,0,0,,,0.0
+CLM000688,PAT80636,MEDICARE,2353.01,VALID,0,0,,,0.0
+CLM000689,PAT51592,MEDICARE,1985.55,VALID,0,0,,,0.0
+CLM000690,PAT58824,BCBS,336.51,VALID,0,0,,,0.0
+CLM000691,PAT28883,HUMANA,2700.99,VALID,0,0,,,0.0
+CLM000692,PAT36238,AETNA,3788.07,VALID,0,0,,,0.0
+CLM000693,PAT70851,AETNA,4064.35,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 246 days old and will be denied.,4064.35
+CLM000694,PAT35994,BCBS,2138.68,VALID,0,0,,,0.0
+CLM000695,PAT36632,AETNA,3583.68,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 277 days old and will be denied.,3583.68
+CLM000696,PAT84847,MEDICARE,2058.76,VALID,0,0,,,0.0
+CLM000697,PAT78019,CIGNA,751.5,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 286 days old and will be denied.,751.5
+CLM000698,PAT58784,MEDICARE,2056.91,VALID,0,0,,,0.0
+CLM000699,PAT94594,CIGNA,1177.85,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 199 days old and will be denied.,1177.85
+CLM000700,PAT35277,HUMANA,1355.75,VALID,0,0,,,0.0
+CLM000701,PAT25195,AETNA,382.74,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,382.74
+CLM000702,PAT95278,BCBS,3022.47,VALID,0,0,,,0.0
+CLM000703,PAT38130,BCBS,3675.52,VALID,0,0,,,0.0
+CLM000704,PAT90511,BCBS,1987.7,VALID,0,0,,,0.0
+CLM000705,PAT26343,CIGNA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000706,PAT70521,BCBS,745.34,VALID,0,0,,,0.0
+CLM000707,PAT54920,AETNA,2728.45,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2728.45
+CLM000708,PAT79222,HUMANA,940.51,VALID,0,0,,,0.0
+CLM000709,PAT72259,MEDICARE,1196.38,VALID,0,0,,,0.0
+CLM000710,PAT43071,HUMANA,3049.43,VALID,0,0,,,0.0
+CLM000711,PAT94749,BCBS,3664.07,VALID,0,0,,,0.0
+CLM000712,PAT52247,CIGNA,1229.85,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1229.85
+CLM000713,PAT32482,HUMANA,3716.19,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",3716.19
+CLM000714,PAT80451,BCBS,4395.65,VALID,0,0,,,0.0
+CLM000715,PAT97370,HUMANA,2213.24,VALID,0,0,,,0.0
+CLM000716,PAT45013,HUMANA,3040.94,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,3040.94
+CLM000717,PAT33819,HUMANA,2677.5,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",2677.5
+CLM000718,PAT46073,MEDICARE,3456.21,VALID,0,0,,,0.0
+CLM000719,PAT61798,HUMANA,747.95,VALID,0,0,,,0.0
+CLM000720,PAT34455,HUMANA,4040.82,FLAGGED,1,0,PAYER_SUB_001,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$,4040.82
+CLM000721,PAT62699,BCBS,3576.49,VALID,0,0,,,0.0
+CLM000722,PAT61710,AETNA,3802.85,VALID,0,0,,,0.0
+CLM000723,PAT88526,BCBS,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000724,PAT73636,CIGNA,2757.8,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | CIGNA timely filing limit is 90 days. This claim is 195 days old and will be denied.,2757.8
+CLM000725,PAT74229,CIGNA,1519.15,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | CIGNA timely filing limit is 90 days. This claim is 187 days old and will be denied.,1519.15
+CLM000726,PAT17103,HUMANA,1613.81,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",1613.81
+CLM000727,PAT23586,MEDICARE,442.9,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,442.9
+CLM000728,PAT87176,MEDICARE,215.31,VALID,0,0,,,0.0
+CLM000729,PAT68473,BCBS,4199.79,VALID,0,0,,,0.0
+CLM000730,PAT26175,MEDICARE,910.5,VALID,0,0,,,0.0
+CLM000731,PAT29089,CIGNA,2987.1,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 174 days old and will be denied.,2987.1
+CLM000732,PAT80634,BCBS,983.58,VALID,0,0,,,0.0
+CLM000733,PAT11548,CIGNA,3837.8,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 157 days old and will be denied.,3837.8
+CLM000734,PAT89005,CIGNA,3144.69,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 244 days old and will be denied.,3144.69
+CLM000735,PAT88492,MEDICARE,2445.47,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,2445.47
+CLM000736,PAT59982,BCBS,3899.04,VALID,0,0,,,0.0
+CLM000737,PAT29097,MEDICARE,4169.94,VALID,0,0,,,0.0
+CLM000738,PAT92756,BCBS,4108.68,VALID,0,0,,,0.0
+CLM000739,PAT87162,AETNA,0.0,REJECTED,2,2,AMT_002|PAYER_TF_001,Billed amount '0.0' must be greater than zero. | AETNA timely filing limit is 180 days. This claim is 210 days old and will be denied.,0.0
+CLM000740,PAT58623,BCBS,206.73,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,206.73
+CLM000741,PAT84379,MEDICARE,762.6,VALID,0,0,,,0.0
+CLM000742,PAT90526,BCBS,2205.28,VALID,0,0,,,0.0
+CLM000743,PAT57344,AETNA,4242.24,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | AETNA timely filing limit is 180 days. This claim is 237 days old and will be denied.,4242.24
+CLM000744,PAT53813,AETNA,2773.74,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 245 days old and will be denied.,2773.74
+CLM000745,PAT75135,AETNA,699.53,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | AETNA timely filing limit is 180 days. This claim is 188 days old and will be denied.,699.53
+CLM000746,PAT33955,BCBS,2261.82,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2261.82
+CLM000747,PAT57543,AETNA,2009.21,VALID,0,0,,,0.0
+CLM000748,PAT85115,MEDICARE,2187.21,VALID,0,0,,,0.0
+CLM000749,PAT80571,HUMANA,1029.5,VALID,0,0,,,0.0
+CLM000750,PAT63166,AETNA,1979.94,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",1979.94
+CLM000751,PAT68239,CIGNA,1602.87,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 229 days old and will be denied.,1602.87
+CLM000752,PAT20922,BCBS,4019.25,VALID,0,0,,,0.0
+CLM000753,PAT84172,AETNA,942.75,VALID,0,0,,,0.0
+CLM000754,PAT87982,AETNA,3823.68,REJECTED,2,1,PAYER_TF_001|PAYER_SUB_001,AETNA timely filing limit is 180 days. This claim is 238 days old and will be denied. | AETNA subscriber ID 'nan' does not match expected format. Pattern: ^[0-9]{9}$,3823.68
+CLM000755,PAT66152,AETNA,4228.94,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",4228.94
+CLM000756,PAT63419,HUMANA,457.38,VALID,0,0,,,0.0
+CLM000757,PAT86159,MEDICARE,3840.01,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3840.01
+CLM000758,PAT74648,CIGNA,3753.72,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3753.72
+CLM000759,PAT56683,HUMANA,3799.35,VALID,0,0,,,0.0
+CLM000760,PAT69132,MEDICARE,2570.7,VALID,0,0,,,0.0
+CLM000761,PAT11110,HUMANA,3069.01,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,3069.01
+CLM000762,PAT18850,MEDICARE,3306.17,VALID,0,0,,,0.0
+CLM000763,PAT87141,CIGNA,2543.54,VALID,0,0,,,0.0
+CLM000764,PAT32593,MEDICARE,4102.47,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,4102.47
+CLM000765,PAT26706,AETNA,2825.43,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | AETNA timely filing limit is 180 days. This claim is 275 days old and will be denied.,2825.43
+CLM000766,PAT16646,BCBS,704.98,VALID,0,0,,,0.0
+CLM000767,PAT69889,AETNA,4216.83,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 226 days old and will be denied.,4216.83
+CLM000768,PAT46163,BCBS,1296.97,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1296.97
+CLM000769,PAT49387,MEDICARE,1398.19,VALID,0,0,,,0.0
+CLM000770,PAT32143,AETNA,2123.23,VALID,0,0,,,0.0
+CLM000771,PAT91628,MEDICARE,4284.11,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,4284.11
+CLM000772,PAT70415,AETNA,3282.72,VALID,0,0,,,0.0
+CLM000773,PAT62609,HUMANA,1589.09,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,1589.09
+CLM000774,PAT11038,CIGNA,1759.24,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 275 days old and will be denied.,1759.24
+CLM000775,PAT87136,CIGNA,744.68,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.,744.68
+CLM000776,PAT13930,HUMANA,1133.12,VALID,0,0,,,0.0
+CLM000777,PAT16371,HUMANA,1279.96,VALID,0,0,,,0.0
+CLM000778,PAT94633,BCBS,1362.16,VALID,0,0,,,0.0
+CLM000779,PAT38523,MEDICARE,3161.5,VALID,0,0,,,0.0
+CLM000780,PAT88765,AETNA,4093.21,VALID,0,0,,,0.0
+CLM000781,PAT72086,AETNA,156.2,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | AETNA timely filing limit is 180 days. This claim is 187 days old and will be denied.,156.2
+CLM000782,PAT61960,BCBS,2287.56,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,2287.56
+CLM000783,PAT28564,AETNA,4422.36,VALID,0,0,,,0.0
+CLM000784,PAT42065,HUMANA,1203.76,VALID,0,0,,,0.0
+CLM000785,PAT97027,BCBS,2362.92,VALID,0,0,,,0.0
+CLM000786,PAT85527,BCBS,2627.65,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,2627.65
+CLM000787,PAT70654,HUMANA,4090.83,VALID,0,0,,,0.0
+CLM000788,PAT93545,MEDICARE,1978.55,VALID,0,0,,,0.0
+CLM000789,PAT40562,MEDICARE,2920.66,VALID,0,0,,,0.0
+CLM000790,PAT72906,MEDICARE,2934.36,VALID,0,0,,,0.0
+CLM000791,PAT21668,MEDICARE,2108.1,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.,2108.1
+CLM000792,PAT45703,AETNA,313.71,REJECTED,2,1,DX_004|PAYER_TF_001,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position. | AETNA timely filing limit is 180 days. This claim is 198 days old and will be denied.,313.71
+CLM000793,PAT49283,HUMANA,3083.73,VALID,0,0,,,0.0
+CLM000794,PAT90214,BCBS,3593.93,VALID,0,0,,,0.0
+CLM000795,PAT86367,MEDICARE,2945.07,VALID,0,0,,,0.0
+CLM000796,PAT77970,BCBS,2233.35,VALID,0,0,,,0.0
+CLM000797,PAT53688,AETNA,3342.2,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 237 days old and will be denied.,3342.2
+CLM000798,PAT82185,BCBS,465.28,VALID,0,0,,,0.0
+CLM000799,PAT82373,MEDICARE,3765.7,VALID,0,0,,,0.0
+CLM000800,PAT34683,CIGNA,430.19,REJECTED,2,2,DX_002|PAYER_TF_001,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23). | CIGNA timely filing limit is 90 days. This claim is 135 days old and will be denied.",430.19
+CLM000801,PAT27864,MEDICARE,3600.45,VALID,0,0,,,0.0
+CLM000802,PAT97861,BCBS,3343.18,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,3343.18
+CLM000803,PAT16116,AETNA,1328.21,VALID,0,0,,,0.0
+CLM000804,PAT94173,BCBS,3767.88,VALID,0,0,,,0.0
+CLM000805,PAT46929,CIGNA,1825.96,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 274 days old and will be denied.,1825.96
+CLM000806,PAT69561,MEDICARE,367.49,VALID,0,0,,,0.0
+CLM000807,PAT33003,BCBS,2298.86,VALID,0,0,,,0.0
+CLM000808,PAT75417,BCBS,1475.59,VALID,0,0,,,0.0
+CLM000809,PAT69290,HUMANA,1164.3,VALID,0,0,,,0.0
+CLM000810,PAT87517,HUMANA,1099.89,VALID,0,0,,,0.0
+CLM000811,PAT39233,AETNA,1040.72,VALID,0,0,,,0.0
+CLM000812,PAT11105,HUMANA,4462.74,VALID,0,0,,,0.0
+CLM000813,PAT62336,HUMANA,2924.46,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | HUMANA timely filing limit is 365 days. This claim is 400 days old and will be denied.,2924.46
+CLM000814,PAT76988,BCBS,1374.11,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1374.11
+CLM000815,PAT54126,AETNA,3403.78,REJECTED,2,2,NPI_003|PAYER_TF_001,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits. | AETNA timely filing limit is 180 days. This claim is 277 days old and will be denied.,3403.78
+CLM000816,PAT31497,HUMANA,2472.82,VALID,0,0,,,0.0
+CLM000817,PAT23730,HUMANA,920.09,VALID,0,0,,,0.0
+CLM000818,PAT63223,CIGNA,3230.87,VALID,0,0,,,0.0
+CLM000819,PAT85963,BCBS,1682.69,VALID,0,0,,,0.0
+CLM000820,PAT88950,AETNA,1643.91,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1643.91
+CLM000821,PAT50238,BCBS,2556.62,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2556.62
+CLM000822,PAT96885,CIGNA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000823,PAT10071,MEDICARE,604.03,VALID,0,0,,,0.0
+CLM000824,PAT41006,BCBS,2557.0,VALID,0,0,,,0.0
+CLM000825,PAT16787,CIGNA,2029.17,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 292 days old and will be denied.,2029.17
+CLM000826,PAT97197,BCBS,1861.27,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,1861.27
+CLM000827,PAT43897,CIGNA,2062.16,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,2062.16
+CLM000828,PAT61693,MEDICARE,395.15,VALID,0,0,,,0.0
+CLM000829,PAT90935,MEDICARE,2945.04,VALID,0,0,,,0.0
+CLM000830,PAT52951,BCBS,1916.45,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1916.45
+CLM000831,PAT70222,MEDICARE,1456.22,VALID,0,0,,,0.0
+CLM000832,PAT94450,BCBS,3144.46,VALID,0,0,,,0.0
+CLM000833,PAT73259,AETNA,4180.63,VALID,0,0,,,0.0
+CLM000834,PAT92458,MEDICARE,1267.74,VALID,0,0,,,0.0
+CLM000835,PAT12223,CIGNA,2236.65,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 296 days old and will be denied.,2236.65
+CLM000836,PAT74261,HUMANA,892.53,VALID,0,0,,,0.0
+CLM000837,PAT53087,MEDICARE,2451.68,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2451.68
+CLM000838,PAT80303,MEDICARE,2337.08,VALID,0,0,,,0.0
+CLM000839,PAT92611,MEDICARE,3006.61,VALID,0,0,,,0.0
+CLM000840,PAT76137,CIGNA,539.02,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 161 days old and will be denied.,539.02
+CLM000841,PAT55817,HUMANA,1487.08,VALID,0,0,,,0.0
+CLM000842,PAT62698,MEDICARE,2308.42,VALID,0,0,,,0.0
+CLM000843,PAT21842,CIGNA,2518.8,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 221 days old and will be denied.,2518.8
+CLM000844,PAT69891,AETNA,2201.19,VALID,0,0,,,0.0
+CLM000845,PAT15616,CIGNA,1931.74,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 136 days old and will be denied.,1931.74
+CLM000846,PAT63970,AETNA,4180.56,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 295 days old and will be denied.,4180.56
+CLM000847,PAT27797,CIGNA,2488.72,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,2488.72
+CLM000848,PAT77104,HUMANA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000849,PAT18889,AETNA,4369.01,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,4369.01
+CLM000850,PAT22948,MEDICARE,2249.84,VALID,0,0,,,0.0
+CLM000851,PAT58915,HUMANA,1040.38,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1040.38
+CLM000852,PAT17351,MEDICARE,1887.2,VALID,0,0,,,0.0
+CLM000853,PAT72363,BCBS,193.4,VALID,0,0,,,0.0
+CLM000854,PAT25722,HUMANA,2305.92,VALID,0,0,,,0.0
+CLM000855,PAT22169,AETNA,948.95,VALID,0,0,,,0.0
+CLM000856,PAT63605,AETNA,4164.83,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 241 days old and will be denied.,4164.83
+CLM000857,PAT80843,BCBS,892.67,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,892.67
+CLM000858,PAT27121,BCBS,2284.53,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,2284.53
+CLM000859,PAT51754,MEDICARE,4349.77,VALID,0,0,,,0.0
+CLM000860,PAT37280,CIGNA,4076.58,VALID,0,0,,,0.0
+CLM000861,PAT60394,BCBS,2671.46,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2671.46
+CLM000862,PAT46350,BCBS,4157.91,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,4157.91
+CLM000863,PAT46403,AETNA,1559.15,VALID,0,0,,,0.0
+CLM000864,PAT28058,BCBS,3145.92,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3145.92
+CLM000865,PAT83402,BCBS,843.7,VALID,0,0,,,0.0
+CLM000866,PAT13882,MEDICARE,773.46,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,773.46
+CLM000867,PAT39411,HUMANA,2043.23,VALID,0,0,,,0.0
+CLM000868,PAT44009,CIGNA,2289.41,VALID,0,0,,,0.0
+CLM000869,PAT91448,AETNA,1350.87,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1350.87
+CLM000870,PAT50317,CIGNA,3908.81,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 108 days old and will be denied.,3908.81
+CLM000871,PAT97894,BCBS,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000872,PAT23206,BCBS,1660.83,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1660.83
+CLM000873,PAT23767,AETNA,421.8,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,421.8
+CLM000874,PAT30393,BCBS,3998.12,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3998.12
+CLM000875,PAT78496,MEDICARE,3090.58,VALID,0,0,,,0.0
+CLM000876,PAT30267,BCBS,3539.51,VALID,0,0,,,0.0
+CLM000877,PAT95371,MEDICARE,286.93,VALID,0,0,,,0.0
+CLM000878,PAT82284,MEDICARE,3059.67,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,3059.67
+CLM000879,PAT21723,CIGNA,3181.87,VALID,0,0,,,0.0
+CLM000880,PAT81018,AETNA,2663.81,VALID,0,0,,,0.0
+CLM000881,PAT40496,AETNA,1155.23,VALID,0,0,,,0.0
+CLM000882,PAT22908,HUMANA,4098.09,VALID,0,0,,,0.0
+CLM000883,PAT28526,HUMANA,3513.26,VALID,0,0,,,0.0
+CLM000884,PAT70164,CIGNA,2339.16,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 167 days old and will be denied.,2339.16
+CLM000885,PAT54336,BCBS,3889.55,VALID,0,0,,,0.0
+CLM000886,PAT13329,AETNA,1279.73,VALID,0,0,,,0.0
+CLM000887,PAT86899,CIGNA,840.72,VALID,0,0,,,0.0
+CLM000888,PAT74463,HUMANA,2002.78,VALID,0,0,,,0.0
+CLM000889,PAT64160,AETNA,278.71,VALID,0,0,,,0.0
+CLM000890,PAT86454,BCBS,4244.93,VALID,0,0,,,0.0
+CLM000891,PAT52604,MEDICARE,3319.09,VALID,0,0,,,0.0
+CLM000892,PAT49120,AETNA,1664.07,VALID,0,0,,,0.0
+CLM000893,PAT64879,HUMANA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000894,PAT39513,MEDICARE,4125.33,VALID,0,0,,,0.0
+CLM000895,PAT24879,CIGNA,1646.63,VALID,0,0,,,0.0
+CLM000896,PAT80438,MEDICARE,2006.38,VALID,0,0,,,0.0
+CLM000897,PAT51032,HUMANA,3543.33,VALID,0,0,,,0.0
+CLM000898,PAT86802,MEDICARE,4439.03,VALID,0,0,,,0.0
+CLM000899,PAT92517,AETNA,3054.84,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 261 days old and will be denied.,3054.84
+CLM000900,PAT11301,AETNA,3891.26,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 182 days old and will be denied.,3891.26
+CLM000901,PAT92350,MEDICARE,2521.86,VALID,0,0,,,0.0
+CLM000902,PAT66360,AETNA,3445.36,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 286 days old and will be denied.,3445.36
+CLM000903,PAT12357,AETNA,1909.71,VALID,0,0,,,0.0
+CLM000904,PAT68618,HUMANA,880.81,VALID,0,0,,,0.0
+CLM000905,PAT62232,HUMANA,322.94,VALID,0,0,,,0.0
+CLM000906,PAT60111,HUMANA,557.36,VALID,0,0,,,0.0
+CLM000907,PAT45569,AETNA,2164.18,VALID,0,0,,,0.0
+CLM000908,PAT70262,CIGNA,655.92,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 101 days old and will be denied.,655.92
+CLM000909,PAT21343,MEDICARE,2544.58,VALID,0,0,,,0.0
+CLM000910,PAT38707,BCBS,3493.33,VALID,0,0,,,0.0
+CLM000911,PAT88069,BCBS,2989.84,VALID,0,0,,,0.0
+CLM000912,PAT44330,HUMANA,2347.57,VALID,0,0,,,0.0
+CLM000913,PAT89813,BCBS,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM000914,PAT37692,HUMANA,2725.81,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2725.81
+CLM000915,PAT66479,MEDICARE,2116.73,VALID,0,0,,,0.0
+CLM000916,PAT73121,MEDICARE,3927.79,VALID,0,0,,,0.0
+CLM000917,PAT99495,BCBS,2521.03,VALID,0,0,,,0.0
+CLM000918,PAT10796,AETNA,2166.88,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 235 days old and will be denied.,2166.88
+CLM000919,PAT88487,HUMANA,2105.94,VALID,0,0,,,0.0
+CLM000920,PAT60641,HUMANA,2200.92,VALID,0,0,,,0.0
+CLM000921,PAT15574,AETNA,1943.36,VALID,0,0,,,0.0
+CLM000922,PAT69984,BCBS,3023.23,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3023.23
+CLM000923,PAT93309,MEDICARE,672.2,VALID,0,0,,,0.0
+CLM000924,PAT33415,HUMANA,4064.96,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,4064.96
+CLM000925,PAT10100,HUMANA,2973.26,VALID,0,0,,,0.0
+CLM000926,PAT81668,CIGNA,3805.74,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 262 days old and will be denied.,3805.74
+CLM000927,PAT84310,AETNA,1771.82,VALID,0,0,,,0.0
+CLM000928,PAT87068,MEDICARE,4102.76,VALID,0,0,,,0.0
+CLM000929,PAT42382,HUMANA,203.75,VALID,0,0,,,0.0
+CLM000930,PAT90863,HUMANA,4195.27,VALID,0,0,,,0.0
+CLM000931,PAT48908,HUMANA,1442.48,VALID,0,0,,,0.0
+CLM000932,PAT62730,BCBS,2973.3,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2973.3
+CLM000933,PAT63045,AETNA,2247.4,VALID,0,0,,,0.0
+CLM000934,PAT49094,AETNA,2149.36,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2149.36
+CLM000935,PAT92558,MEDICARE,460.12,VALID,0,0,,,0.0
+CLM000936,PAT83183,CIGNA,311.12,FLAGGED,1,0,PAYER_SUB_001,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$,311.12
+CLM000937,PAT50826,MEDICARE,1219.36,VALID,0,0,,,0.0
+CLM000938,PAT15230,MEDICARE,1814.39,VALID,0,0,,,0.0
+CLM000939,PAT47025,BCBS,4373.09,VALID,0,0,,,0.0
+CLM000940,PAT39144,MEDICARE,553.06,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,553.06
+CLM000941,PAT24606,HUMANA,1198.21,VALID,0,0,,,0.0
+CLM000942,PAT20476,AETNA,4145.62,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,4145.62
+CLM000943,PAT49479,HUMANA,470.48,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,470.48
+CLM000944,PAT91768,HUMANA,1307.02,VALID,0,0,,,0.0
+CLM000945,PAT85297,CIGNA,1156.0,FLAGGED,1,0,PAYER_SUB_001,CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$,1156.0
+CLM000946,PAT77344,CIGNA,4176.92,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 116 days old and will be denied.,4176.92
+CLM000947,PAT59792,BCBS,1519.8,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,1519.8
+CLM000948,PAT99049,BCBS,445.15,VALID,0,0,,,0.0
+CLM000949,PAT85060,CIGNA,3293.67,VALID,0,0,,,0.0
+CLM000950,PAT16445,BCBS,1778.01,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | BCBS timely filing limit is 365 days. This claim is 400 days old and will be denied.,1778.01
+CLM000951,PAT34385,HUMANA,1407.57,VALID,0,0,,,0.0
+CLM000952,PAT99916,AETNA,353.29,VALID,0,0,,,0.0
+CLM000953,PAT54839,BCBS,1577.91,VALID,0,0,,,0.0
+CLM000954,PAT64285,AETNA,1036.32,VALID,0,0,,,0.0
+CLM000955,PAT75019,CIGNA,3316.47,VALID,0,0,,,0.0
+CLM000956,PAT63952,HUMANA,3991.22,VALID,0,0,,,0.0
+CLM000957,PAT51101,HUMANA,299.56,VALID,0,0,,,0.0
+CLM000958,PAT83712,BCBS,1583.52,VALID,0,0,,,0.0
+CLM000959,PAT75691,HUMANA,429.33,VALID,0,0,,,0.0
+CLM000960,PAT61303,MEDICARE,2757.64,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2757.64
+CLM000961,PAT30206,MEDICARE,3882.65,VALID,0,0,,,0.0
+CLM000962,PAT63261,CIGNA,3336.18,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 260 days old and will be denied.,3336.18
+CLM000963,PAT99560,MEDICARE,3872.89,VALID,0,0,,,0.0
+CLM000964,PAT10647,MEDICARE,2810.56,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2810.56
+CLM000965,PAT63504,BCBS,2118.96,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2118.96
+CLM000966,PAT85478,MEDICARE,2218.99,VALID,0,0,,,0.0
+CLM000967,PAT59498,BCBS,2168.57,VALID,0,0,,,0.0
+CLM000968,PAT53532,MEDICARE,2762.02,VALID,0,0,,,0.0
+CLM000969,PAT57523,CIGNA,2466.77,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 236 days old and will be denied.,2466.77
+CLM000970,PAT23896,MEDICARE,3656.02,VALID,0,0,,,0.0
+CLM000971,PAT72988,CIGNA,871.0,REJECTED,2,2,DX_002|PAYER_TF_001,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23). | CIGNA timely filing limit is 90 days. This claim is 216 days old and will be denied.",871.0
+CLM000972,PAT50948,CIGNA,3724.41,REJECTED,2,2,NPI_003|PAYER_TF_001,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits. | CIGNA timely filing limit is 90 days. This claim is 289 days old and will be denied.,3724.41
+CLM000973,PAT81061,HUMANA,1526.16,VALID,0,0,,,0.0
+CLM000974,PAT56234,AETNA,2163.04,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,2163.04
+CLM000975,PAT41168,HUMANA,1883.88,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",1883.88
+CLM000976,PAT60859,HUMANA,180.64,VALID,0,0,,,0.0
+CLM000977,PAT77969,CIGNA,2152.05,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 212 days old and will be denied.,2152.05
+CLM000978,PAT77708,BCBS,2432.87,VALID,0,0,,,0.0
+CLM000979,PAT69026,BCBS,2685.09,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | BCBS timely filing limit is 365 days. This claim is 400 days old and will be denied.,2685.09
+CLM000980,PAT25600,HUMANA,2351.24,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2351.24
+CLM000981,PAT21858,AETNA,1135.88,FLAGGED,1,0,PAYER_SUB_001,AETNA subscriber ID 'nan' does not match expected format. Pattern: ^[0-9]{9}$,1135.88
+CLM000982,PAT45092,BCBS,4158.86,VALID,0,0,,,0.0
+CLM000983,PAT87527,HUMANA,1401.94,VALID,0,0,,,0.0
+CLM000984,PAT64458,BCBS,2759.06,VALID,0,0,,,0.0
+CLM000985,PAT22292,HUMANA,1707.66,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1707.66
+CLM000986,PAT59756,HUMANA,1221.55,VALID,0,0,,,0.0
+CLM000987,PAT53846,MEDICARE,1556.69,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1556.69
+CLM000988,PAT18664,HUMANA,3434.37,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3434.37
+CLM000989,PAT74952,CIGNA,1391.55,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 226 days old and will be denied.,1391.55
+CLM000990,PAT11937,HUMANA,893.11,VALID,0,0,,,0.0
+CLM000991,PAT11603,CIGNA,929.55,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 101 days old and will be denied.,929.55
+CLM000992,PAT51911,BCBS,1520.41,VALID,0,0,,,0.0
+CLM000993,PAT43557,BCBS,645.34,VALID,0,0,,,0.0
+CLM000994,PAT66367,AETNA,1297.13,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 263 days old and will be denied.,1297.13
+CLM000995,PAT60285,BCBS,1605.55,VALID,0,0,,,0.0
+CLM000996,PAT66924,CIGNA,4168.55,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | CIGNA timely filing limit is 90 days. This claim is 202 days old and will be denied.,4168.55
+CLM000997,PAT94523,HUMANA,505.81,VALID,0,0,,,0.0
+CLM000998,PAT64431,MEDICARE,3574.88,VALID,0,0,,,0.0
+CLM000999,PAT17724,AETNA,2211.83,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 195 days old and will be denied.,2211.83
+CLM001000,PAT94206,HUMANA,1876.34,VALID,0,0,,,0.0
+CLM001001,PAT97525,MEDICARE,1290.85,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.,1290.85
+CLM001002,PAT14307,CIGNA,1109.93,VALID,0,0,,,0.0
+CLM001003,PAT79924,AETNA,4312.94,VALID,0,0,,,0.0
+CLM001004,PAT15066,BCBS,3840.63,VALID,0,0,,,0.0
+CLM001005,PAT73656,HUMANA,2609.81,VALID,0,0,,,0.0
+CLM001006,PAT82829,AETNA,4372.33,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 267 days old and will be denied.,4372.33
+CLM001007,PAT49539,BCBS,313.17,VALID,0,0,,,0.0
+CLM001008,PAT33003,CIGNA,877.41,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 166 days old and will be denied.,877.41
+CLM001009,PAT58397,AETNA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM001010,PAT20879,BCBS,2222.39,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",2222.39
+CLM001011,PAT24591,HUMANA,882.98,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,882.98
+CLM001012,PAT39907,MEDICARE,1315.7,VALID,0,0,,,0.0
+CLM001013,PAT67236,MEDICARE,2725.41,VALID,0,0,,,0.0
+CLM001014,PAT91534,BCBS,4043.05,VALID,0,0,,,0.0
+CLM001015,PAT94210,HUMANA,4418.82,VALID,0,0,,,0.0
+CLM001016,PAT34454,BCBS,2519.58,VALID,0,0,,,0.0
+CLM001017,PAT64821,HUMANA,1952.53,VALID,0,0,,,0.0
+CLM001018,PAT41508,BCBS,2462.04,VALID,0,0,,,0.0
+CLM001019,PAT58355,BCBS,855.36,VALID,0,0,,,0.0
+CLM001020,PAT48730,HUMANA,837.0,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,837.0
+CLM001021,PAT25874,CIGNA,3419.13,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 111 days old and will be denied.,3419.13
+CLM001022,PAT34091,BCBS,402.89,VALID,0,0,,,0.0
+CLM001023,PAT19891,HUMANA,2174.81,VALID,0,0,,,0.0
+CLM001024,PAT85431,HUMANA,441.0,VALID,0,0,,,0.0
+CLM001025,PAT29813,AETNA,1608.55,VALID,0,0,,,0.0
+CLM001026,PAT84684,HUMANA,3761.27,VALID,0,0,,,0.0
+CLM001027,PAT19381,HUMANA,1945.4,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,1945.4
+CLM001028,PAT38915,CIGNA,1524.26,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | CIGNA timely filing limit is 90 days. This claim is 177 days old and will be denied.,1524.26
+CLM001029,PAT51274,CIGNA,1919.56,VALID,0,0,,,0.0
+CLM001030,PAT28151,CIGNA,3128.94,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 138 days old and will be denied.,3128.94
+CLM001031,PAT70156,CIGNA,3186.8,VALID,0,0,,,0.0
+CLM001032,PAT63345,HUMANA,201.12,VALID,0,0,,,0.0
+CLM001033,PAT98564,AETNA,1989.44,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 232 days old and will be denied.,1989.44
+CLM001034,PAT24906,HUMANA,1367.7,VALID,0,0,,,0.0
+CLM001035,PAT85638,AETNA,4289.72,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 261 days old and will be denied.,4289.72
+CLM001036,PAT23514,AETNA,332.97,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,332.97
+CLM001037,PAT65612,CIGNA,2394.41,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 200 days old and will be denied.,2394.41
+CLM001038,PAT18778,CIGNA,1700.94,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 277 days old and will be denied.,1700.94
+CLM001039,PAT65747,CIGNA,2496.5,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 138 days old and will be denied.,2496.5
+CLM001040,PAT77876,BCBS,866.04,VALID,0,0,,,0.0
+CLM001041,PAT73010,CIGNA,759.91,VALID,0,0,,,0.0
+CLM001042,PAT91139,HUMANA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM001043,PAT29967,BCBS,2825.22,VALID,0,0,,,0.0
+CLM001044,PAT14868,MEDICARE,647.16,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,647.16
+CLM001045,PAT88364,CIGNA,3824.43,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 173 days old and will be denied.,3824.43
+CLM001046,PAT30416,HUMANA,3860.83,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3860.83
+CLM001047,PAT97041,AETNA,240.44,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 201 days old and will be denied.,240.44
+CLM001048,PAT11686,AETNA,1809.04,VALID,0,0,,,0.0
+CLM001049,PAT91479,AETNA,2868.72,VALID,0,0,,,0.0
+CLM001050,PAT55545,CIGNA,3495.6,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,3495.6
+CLM001051,PAT89482,CIGNA,758.7,REJECTED,2,2,PROC_002|PAYER_TF_001,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format. | CIGNA timely filing limit is 90 days. This claim is 217 days old and will be denied.,758.7
+CLM001052,PAT13221,MEDICARE,2437.95,VALID,0,0,,,0.0
+CLM001053,PAT21223,AETNA,2096.83,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 204 days old and will be denied.,2096.83
+CLM001054,PAT58412,MEDICARE,3797.93,VALID,0,0,,,0.0
+CLM001055,PAT87362,AETNA,2636.71,VALID,0,0,,,0.0
+CLM001056,PAT16526,HUMANA,1670.68,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | HUMANA timely filing limit is 365 days. This claim is 400 days old and will be denied.,1670.68
+CLM001057,PAT25606,AETNA,1925.12,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1925.12
+CLM001058,PAT94148,CIGNA,2302.46,VALID,0,0,,,0.0
+CLM001059,PAT96856,HUMANA,4049.01,REJECTED,1,1,DX_002,"Diagnosis code '12345' does not match ICD-10-CM format (e.g. M54.5, Z23).",4049.01
+CLM001060,PAT71734,HUMANA,2206.52,VALID,0,0,,,0.0
+CLM001061,PAT88103,BCBS,1721.12,VALID,0,0,,,0.0
+CLM001062,PAT53919,BCBS,425.95,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,425.95
+CLM001063,PAT96090,BCBS,635.79,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,635.79
+CLM001064,PAT86624,HUMANA,4399.08,VALID,0,0,,,0.0
+CLM001065,PAT72341,AETNA,3829.47,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,3829.47
+CLM001066,PAT19667,AETNA,4164.82,VALID,0,0,,,0.0
+CLM001067,PAT96189,CIGNA,2334.06,VALID,0,0,,,0.0
+CLM001068,PAT87394,BCBS,3274.76,VALID,0,0,,,0.0
+CLM001069,PAT54529,HUMANA,2781.56,VALID,0,0,,,0.0
+CLM001070,PAT57052,HUMANA,645.5,VALID,0,0,,,0.0
+CLM001071,PAT82738,MEDICARE,1211.56,VALID,0,0,,,0.0
+CLM001072,PAT45801,CIGNA,187.01,REJECTED,2,1,PAYER_TF_001|PAYER_SUB_001,CIGNA timely filing limit is 90 days. This claim is 106 days old and will be denied. | CIGNA subscriber ID 'nan' does not match expected format. Pattern: ^U[0-9]{8}$,187.01
+CLM001073,PAT30929,BCBS,587.39,VALID,0,0,,,0.0
+CLM001074,PAT76883,HUMANA,2761.01,VALID,0,0,,,0.0
+CLM001075,PAT70132,CIGNA,603.27,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 111 days old and will be denied.,603.27
+CLM001076,PAT99699,BCBS,1178.02,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,1178.02
+CLM001077,PAT97453,AETNA,1095.76,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,1095.76
+CLM001078,PAT37159,HUMANA,4458.02,VALID,0,0,,,0.0
+CLM001079,PAT20322,AETNA,1896.81,VALID,0,0,,,0.0
+CLM001080,PAT26814,BCBS,2512.99,VALID,0,0,,,0.0
+CLM001081,PAT46589,BCBS,2282.95,VALID,0,0,,,0.0
+CLM001082,PAT89796,HUMANA,599.6,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,599.6
+CLM001083,PAT25062,HUMANA,1664.06,VALID,0,0,,,0.0
+CLM001084,PAT65194,CIGNA,2340.32,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 175 days old and will be denied.,2340.32
+CLM001085,PAT74688,BCBS,2887.67,VALID,0,0,,,0.0
+CLM001086,PAT96701,HUMANA,2750.5,VALID,0,0,,,0.0
+CLM001087,PAT91487,BCBS,3966.45,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3966.45
+CLM001088,PAT11889,AETNA,2037.38,VALID,0,0,,,0.0
+CLM001089,PAT65810,BCBS,663.37,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,663.37
+CLM001090,PAT51721,BCBS,268.15,VALID,0,0,,,0.0
+CLM001091,PAT91410,AETNA,2798.41,VALID,0,0,,,0.0
+CLM001092,PAT76549,MEDICARE,1256.65,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1256.65
+CLM001093,PAT85709,CIGNA,1038.28,VALID,0,0,,,0.0
+CLM001094,PAT43897,HUMANA,1911.13,VALID,0,0,,,0.0
+CLM001095,PAT69975,HUMANA,221.34,VALID,0,0,,,0.0
+CLM001096,PAT99944,MEDICARE,1987.34,VALID,0,0,,,0.0
+CLM001097,PAT85429,MEDICARE,4011.02,VALID,0,0,,,0.0
+CLM001098,PAT33323,AETNA,3737.98,VALID,0,0,,,0.0
+CLM001099,PAT77803,HUMANA,3458.57,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,3458.57
+CLM001100,PAT58348,CIGNA,2945.75,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 258 days old and will be denied.,2945.75
+CLM001101,PAT19429,AETNA,1161.94,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 276 days old and will be denied.,1161.94
+CLM001102,PAT76773,HUMANA,2491.1,VALID,0,0,,,0.0
+CLM001103,PAT46882,HUMANA,1976.53,VALID,0,0,,,0.0
+CLM001104,PAT62222,BCBS,3613.94,VALID,0,0,,,0.0
+CLM001105,PAT50326,BCBS,455.11,VALID,0,0,,,0.0
+CLM001106,PAT46787,HUMANA,2373.38,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2373.38
+CLM001107,PAT33655,AETNA,3158.7,VALID,0,0,,,0.0
+CLM001108,PAT43204,AETNA,1077.48,VALID,0,0,,,0.0
+CLM001109,PAT36710,HUMANA,2233.94,VALID,0,0,,,0.0
+CLM001110,PAT85672,CIGNA,3964.19,VALID,0,0,,,0.0
+CLM001111,PAT17272,MEDICARE,548.89,VALID,0,0,,,0.0
+CLM001112,PAT16818,CIGNA,2647.91,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | CIGNA timely filing limit is 90 days. This claim is 400 days old and will be denied.,2647.91
+CLM001113,PAT48906,AETNA,406.15,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,406.15
+CLM001114,PAT88333,MEDICARE,3377.62,VALID,0,0,,,0.0
+CLM001115,PAT60127,BCBS,249.65,VALID,0,0,,,0.0
+CLM001116,PAT79347,HUMANA,4302.53,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,4302.53
+CLM001117,PAT83250,HUMANA,4120.98,FLAGGED,1,0,PAYER_SUB_001,HUMANA subscriber ID 'nan' does not match expected format. Pattern: ^H[0-9]{8}[A-Z]$,4120.98
+CLM001118,PAT44360,BCBS,904.74,VALID,0,0,,,0.0
+CLM001119,PAT38908,CIGNA,2026.66,VALID,0,0,,,0.0
+CLM001120,PAT82877,BCBS,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM001121,PAT40586,MEDICARE,3330.18,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | MEDICARE timely filing limit is 365 days. This claim is 400 days old and will be denied.,3330.18
+CLM001122,PAT43534,HUMANA,2296.4,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",2296.4
+CLM001123,PAT77402,AETNA,331.54,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 262 days old and will be denied.,331.54
+CLM001124,PAT52254,AETNA,503.05,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 245 days old and will be denied.,503.05
+CLM001125,PAT90363,CIGNA,1605.71,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 138 days old and will be denied.,1605.71
+CLM001126,PAT85445,BCBS,523.5,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,523.5
+CLM001127,PAT53731,CIGNA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM001128,PAT74981,HUMANA,2903.52,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,2903.52
+CLM001129,PAT83017,CIGNA,4368.85,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 112 days old and will be denied.,4368.85
+CLM001130,PAT20772,BCBS,3765.67,VALID,0,0,,,0.0
+CLM001131,PAT66934,HUMANA,1333.69,REJECTED,1,1,DX_002,"Diagnosis code '999' does not match ICD-10-CM format (e.g. M54.5, Z23).",1333.69
+CLM001132,PAT73815,MEDICARE,1305.5,VALID,0,0,,,0.0
+CLM001133,PAT47714,CIGNA,2161.19,REJECTED,2,2,NPI_006|PAYER_TF_001,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits. | CIGNA timely filing limit is 90 days. This claim is 118 days old and will be denied.,2161.19
+CLM001134,PAT71288,MEDICARE,1580.28,VALID,0,0,,,0.0
+CLM001135,PAT57464,MEDICARE,1461.14,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,1461.14
+CLM001136,PAT68201,AETNA,3376.24,VALID,0,0,,,0.0
+CLM001137,PAT62746,HUMANA,4233.91,VALID,0,0,,,0.0
+CLM001138,PAT51132,AETNA,4257.09,VALID,0,0,,,0.0
+CLM001139,PAT17575,MEDICARE,1922.71,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,1922.71
+CLM001140,PAT50617,CIGNA,974.59,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 240 days old and will be denied.,974.59
+CLM001141,PAT57737,BCBS,4126.65,REJECTED,1,1,DATE_003,Date of service '2026-04-21' is in the future. Claims cannot be submitted for future dates.,4126.65
+CLM001142,PAT52240,AETNA,478.68,VALID,0,0,,,0.0
+CLM001143,PAT24336,CIGNA,1395.88,VALID,0,0,,,0.0
+CLM001144,PAT80393,HUMANA,2381.51,VALID,0,0,,,0.0
+CLM001145,PAT73295,HUMANA,4152.58,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,4152.58
+CLM001146,PAT61740,MEDICARE,2427.45,VALID,0,0,,,0.0
+CLM001147,PAT90577,CIGNA,3611.93,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 132 days old and will be denied.,3611.93
+CLM001148,PAT99479,BCBS,3217.48,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,3217.48
+CLM001149,PAT13287,AETNA,641.9,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 293 days old and will be denied.,641.9
+CLM001150,PAT85223,CIGNA,4144.5,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 194 days old and will be denied.,4144.5
+CLM001151,PAT74611,MEDICARE,2124.01,VALID,0,0,,,0.0
+CLM001152,PAT61401,HUMANA,170.94,VALID,0,0,,,0.0
+CLM001153,PAT98646,MEDICARE,3625.82,VALID,0,0,,,0.0
+CLM001154,PAT54601,HUMANA,4048.2,VALID,0,0,,,0.0
+CLM001155,PAT72563,CIGNA,3706.68,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 154 days old and will be denied.,3706.68
+CLM001156,PAT36636,CIGNA,1317.38,VALID,0,0,,,0.0
+CLM001157,PAT71392,HUMANA,2059.79,VALID,0,0,,,0.0
+CLM001158,PAT63328,AETNA,965.33,VALID,0,0,,,0.0
+CLM001159,PAT34999,HUMANA,2812.08,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,2812.08
+CLM001160,PAT11285,MEDICARE,2898.12,VALID,0,0,,,0.0
+CLM001161,PAT82174,BCBS,2236.57,VALID,0,0,,,0.0
+CLM001162,PAT75151,AETNA,4150.63,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | AETNA timely filing limit is 180 days. This claim is 266 days old and will be denied.,4150.63
+CLM001163,PAT79084,BCBS,3201.89,VALID,0,0,,,0.0
+CLM001164,PAT22802,HUMANA,1539.99,REJECTED,2,1,DATE_004|PAYER_TF_001,Date of service '2025-02-15' is 400 days old. Most payers require submission within 365 days (timely filing limit). | HUMANA timely filing limit is 365 days. This claim is 400 days old and will be denied.,1539.99
+CLM001165,PAT65868,MEDICARE,3226.4,VALID,0,0,,,0.0
+CLM001166,PAT10913,BCBS,2851.18,VALID,0,0,,,0.0
+CLM001167,PAT31171,HUMANA,2696.88,VALID,0,0,,,0.0
+CLM001168,PAT34054,BCBS,4477.9,VALID,0,0,,,0.0
+CLM001169,PAT78012,CIGNA,3890.69,REJECTED,2,2,NPI_002|PAYER_TF_001,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits. | CIGNA timely filing limit is 90 days. This claim is 237 days old and will be denied.,3890.69
+CLM001170,PAT86176,CIGNA,695.32,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 242 days old and will be denied.,695.32
+CLM001171,PAT16953,BCBS,1110.58,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,1110.58
+CLM001172,PAT38498,CIGNA,697.55,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 115 days old and will be denied.,697.55
+CLM001173,PAT49478,AETNA,2026.05,VALID,0,0,,,0.0
+CLM001174,PAT33073,BCBS,3257.63,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,3257.63
+CLM001175,PAT53827,HUMANA,0.0,REJECTED,1,1,AMT_002,Billed amount '0.0' must be greater than zero.,0.0
+CLM001176,PAT70114,MEDICARE,2493.49,REJECTED,1,1,NPI_006,Rendering NPI 'nan' is invalid. Must be exactly 10 numeric digits.,2493.49
+CLM001177,PAT57924,BCBS,2270.51,VALID,0,0,,,0.0
+CLM001178,PAT19878,BCBS,4245.0,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,4245.0
+CLM001179,PAT46394,MEDICARE,2898.35,REJECTED,1,1,PROC_002,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format.,2898.35
+CLM001180,PAT70057,AETNA,190.27,VALID,0,0,,,0.0
+CLM001181,PAT47293,BCBS,625.47,VALID,0,0,,,0.0
+CLM001182,PAT55943,HUMANA,4199.69,VALID,0,0,,,0.0
+CLM001183,PAT47056,HUMANA,1066.89,VALID,0,0,,,0.0
+CLM001184,PAT59665,MEDICARE,303.64,VALID,0,0,,,0.0
+CLM001185,PAT62713,CIGNA,3059.43,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 188 days old and will be denied.,3059.43
+CLM001186,PAT23031,AETNA,230.16,REJECTED,1,1,NPI_003,Billing NPI '123456789' is 9 digits. NPI must be exactly 10 digits.,230.16
+CLM001187,PAT76490,CIGNA,1436.68,VALID,0,0,,,0.0
+CLM001188,PAT20416,BCBS,269.61,REJECTED,1,1,DX_002,"Diagnosis code 'ABCDE' does not match ICD-10-CM format (e.g. M54.5, Z23).",269.61
+CLM001189,PAT92816,AETNA,2117.69,FLAGGED,1,0,DX_004,Diagnosis pointer 'nan' is invalid. Must reference a valid diagnosis position.,2117.69
+CLM001190,PAT54146,MEDICARE,3989.14,VALID,0,0,,,0.0
+CLM001191,PAT86507,CIGNA,2263.73,VALID,0,0,,,0.0
+CLM001192,PAT42023,HUMANA,982.56,REJECTED,1,1,NPI_002,Billing NPI 'nan' contains non-numeric characters. NPI must be 10 digits.,982.56
+CLM001193,PAT22126,BCBS,256.61,FLAGGED,1,0,PAYER_SUB_001,BCBS subscriber ID 'nan' does not match expected format. Pattern: ^[A-Z]{3}[0-9]{9}$,256.61
+CLM001194,PAT23584,AETNA,3436.94,REJECTED,1,1,PAYER_TF_001,AETNA timely filing limit is 180 days. This claim is 265 days old and will be denied.,3436.94
+CLM001195,PAT70132,CIGNA,3023.53,REJECTED,1,1,PAYER_TF_001,CIGNA timely filing limit is 90 days. This claim is 258 days old and will be denied.,3023.53
+CLM001196,PAT90404,HUMANA,1305.03,VALID,0,0,,,0.0
+CLM001197,PAT61980,MEDICARE,347.81,VALID,0,0,,,0.0
+CLM001198,PAT18052,HUMANA,4199.94,VALID,0,0,,,0.0
+CLM001199,PAT73738,BCBS,3427.7,VALID,0,0,,,0.0
+CLM001200,PAT68686,CIGNA,1603.72,REJECTED,2,2,PROC_002|PAYER_TF_001,Procedure code 'XXXXX' is not a valid CPT (5 digits) or HCPCS (letter + 4 digits) format. | CIGNA timely filing limit is 90 days. This claim is 217 days old and will be denied.,1603.72
