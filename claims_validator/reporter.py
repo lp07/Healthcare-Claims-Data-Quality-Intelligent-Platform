@@ -1,3 +1,8 @@
+# =============================================================================
+# Copyright (c) 2025 Lisa Patel | github.com/lp07
+# Original portfolio project. Unauthorized commercial use prohibited.
+# Attribution required for any use, modification, or distribution.
+# =============================================================================
 """
 reporter.py — Validation Report Generator
 
@@ -128,7 +133,8 @@ class ValidationReporter:
 
     def _print_summary(self, summary: dict):
         """Print summary to console — useful when running from terminal."""
-        print("\n" + "="*60)
+        print("
+" + "="*60)
         print("  CLAIMS VALIDATION SUMMARY")
         print("="*60)
         print(f"  Run Time:           {summary['run_timestamp']}")
@@ -140,10 +146,12 @@ class ValidationReporter:
         print(f"  Total Billed:       ${summary['total_billed_amount']:,.2f}")
         print(f"  Revenue at Risk:    ${summary['total_revenue_at_risk']:,.2f}")
         print(f"  Risk %:             {summary['revenue_at_risk_pct']}%")
-        print("\n  TOP ERROR CODES:")
+        print("
+  TOP ERROR CODES:")
         for code, count in summary['top_error_codes']:
             print(f"    {code}: {count} occurrences")
-        print("="*60 + "\n")
+        print("="*60 + "
+")
 
     def _save_summary(self, summary: dict):
         """Save summary as JSON."""

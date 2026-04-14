@@ -1,3 +1,8 @@
+# =============================================================================
+# Copyright (c) 2025 Lisa Patel | github.com/lp07
+# Original portfolio project. Unauthorized commercial use prohibited.
+# Attribution required for any use, modification, or distribution.
+# =============================================================================
 """
 generate_sample_data.py — Synthetic Claims Data Generator
 
@@ -112,4 +117,5 @@ if __name__ == "__main__":
     df = generate_claims(1200)
     df.to_csv("data/sample_claims.csv", index=False)
     print(f"Generated {len(df)} synthetic claims → data/sample_claims.csv")
-    print(f"Payer distribution:\n{df['payer'].value_counts()}")
+    print(f"Payer distribution:
+{df['payer'].value_counts()}")

@@ -1,3 +1,8 @@
+# =============================================================================
+# Copyright (c) 2025 Lisa Patel | github.com/lp07
+# Original portfolio project. Unauthorized commercial use prohibited.
+# Attribution required for any use, modification, or distribution.
+# =============================================================================
 """
 main.py — Healthcare Claims DQ Platform Entry Point
 
@@ -89,7 +94,8 @@ def main():
     error_breakdown_path = reporter.generate_error_breakdown(results)
     summary = reporter.generate_summary(results)
 
-    print(f"\nReports saved to: {args.output_dir}/")
+    print(f"
+Reports saved to: {args.output_dir}/")
     print(f"  Full report:     {os.path.basename(full_report_path)}")
     if error_breakdown_path:
         print(f"  Error breakdown: {os.path.basename(error_breakdown_path)}")
